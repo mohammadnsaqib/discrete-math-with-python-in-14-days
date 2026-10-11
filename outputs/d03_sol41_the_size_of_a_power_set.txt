@@ -1,0 +1,11 @@
+  members      subsets      built    seconds    ratio
+       12        4,096      4,096    0.00404
+       14       16,384     16,384    0.02004     4.96
+       16       65,536     65,536    0.09922     4.95
+       18      262,144    262,144    0.45558     4.59
+       20    1,048,576  1,048,576    2.23492     4.91
+
+each subset costs about 2131 nanoseconds at this size
+   30 members would take about 38 minutes to enumerate
+   40 members would take about 27 days to enumerate
+   64 members would take about 1.25e+06 years to enumerate

@@ -1,0 +1,14 @@
+the function is True on rows [3, 5, 6, 7]
+
+                 pattern   letters     rows it covers   inside the function
+                   1 1 1         3                [7]                  True
+                   - 1 1         2             [3, 7]                  True
+                   1 - 1         2             [5, 7]                  True
+                   1 1 -         2             [6, 7]                  True
+                   1 - -         1       [4, 5, 6, 7]                 False
+                   - - -         0 [0, 1, 2, 3, 4, 5, 6, 7]                 False
+
+product terms that stay inside the function: 7
+  letters   rows each covers   how many there are
+        2                  2                    3
+        3                  1                    4

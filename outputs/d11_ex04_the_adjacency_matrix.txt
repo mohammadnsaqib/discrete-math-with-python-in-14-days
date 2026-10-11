@@ -1,0 +1,15 @@
+      a   b   c   d   e
+  a   0   1   1   1   0
+  b   1   0   1   0   0
+  c   1   1   0   1   0
+  d   1   0   1   0   0
+  e   0   0   0   0   0
+
+the matrix is symmetric: True
+the diagonal is all zero: True
+the entries add to 10, which is twice the 5 edges
+
+             graph   size   ones in the matrix    edges   NetworkX agrees
+     complete on 4      4                   12        6              True
+       a ring of 6      6                   12        6              True
+     five isolated      5                    0        0              True

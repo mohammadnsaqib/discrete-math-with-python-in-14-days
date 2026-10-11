@@ -1,0 +1,7 @@
+                        collection  by the rule  by building  verdict
+       committee of 2 with a chair           20           20  agree
+       committee of 3 with a chair           30           30  agree
+       committee of 4 with a chair           20           20  agree
+   the same by the second route, 2           25           20  DISAGREE
+   the same by the second route, 3           50           30  DISAGREE
+   the same by the second route, 4           50           20  DISAGREE

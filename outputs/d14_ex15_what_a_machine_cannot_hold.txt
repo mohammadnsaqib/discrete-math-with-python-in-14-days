@@ -1,0 +1,8 @@
+  states   deepest it counts to   words up to 8 it gets right   out of
+       2                      1                           493      511
+       3                      2                           504      511
+       4                      3                           510      511
+       5                      4                           511      511
+
+balanced words up to length 8 the 3-state machine rejects: 7
+the shortest of them: ((()))

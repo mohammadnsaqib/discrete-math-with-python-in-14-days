@@ -1,0 +1,9 @@
+                  relation    refl    symm   trans    anti  kind
+                  equality    True    True    True    True  an equivalence relation
+                           classes: [[1], [2], [3], [4], [5], [6], [7], [8]]
+               same parity    True    True    True   False  an equivalence relation
+                           classes: [[1, 3, 5, 7], [2, 4, 6, 8]]
+               a divides b    True   False    True    True  a partial order
+            a is at most b    True   False    True    True  a partial order
+          a is less than b   False   False    True    True  none of the named kinds
+      differs by at most 1    True    True   False   False  none of the named kinds

@@ -1,0 +1,9 @@
+exams: ['art', 'history', 'logic', 'maths', 'music', 'sport']
+clashes: 8
+  slot                        exams in it
+     0          ['art', 'logic', 'sport']
+     1               ['history', 'music']
+     2                          ['maths']
+
+a valid timetable: True, slots used: 3, slots needed: 3
+every student's exams are in different slots: True

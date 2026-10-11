@@ -1,0 +1,17 @@
+                           problem             the recurrence              first eight terms
+                subsets of n items            a(n) = 2*a(n-1)  [1, 2, 4, 8, 16, 32, 64, 128]
+                 moves for n discs        a(n) = 2*a(n-1) + 1  [0, 1, 3, 7, 15, 31, 63, 127]
+         binary strings, no two 1s     a(n) = a(n-1) + a(n-2)    [1, 2, 3, 5, 8, 13, 21, 34]
+           arrangements of n items            a(n) = n*a(n-1) [1, 1, 2, 6, 24, 120, 720, 5040]
+
+  length   by the recurrence   by building   agree
+       0                   1             1    True
+       1                   2             2    True
+       2                   3             3    True
+       3                   5             5    True
+       4                   8             8    True
+       5                  13            13    True
+       6                  21            21    True
+       7                  34            34    True
+       8                  55            55    True
+       9                  89            89    True

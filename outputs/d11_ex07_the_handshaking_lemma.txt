@@ -1,0 +1,8 @@
+5 vertices give 10 possible edges and 1024 graphs
+
+graphs where the degrees did not add to twice the edges: 0
+
+  vertices of odd degree   how many graphs
+                       0                64
+                       2               640
+                       4               320

@@ -1,0 +1,4 @@
+                  every prime is odd: REFUTED by 2
+             n squared is at least n: no counterexample in the range searched
+   every odd number above 1 is prime: REFUTED by 9
+    if n divides 12 then n divides 6: REFUTED by 4

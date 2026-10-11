@@ -1,0 +1,18 @@
+the domain      : {ann, bob, cal}
+every possible pair: 9
+the relation has: 4 of them
+
+          pair   in the relation?
+('ann', 'ann')               True
+('ann', 'bob')               True
+('ann', 'cal')              False
+('bob', 'ann')               True
+('bob', 'bob')              False
+('bob', 'cal')               True
+('cal', 'ann')              False
+('cal', 'bob')              False
+('cal', 'cal')              False
+
+a relation is a subset of the square, so there are 2 to the power 9 relations
+on three people: 512. Choosing one is choosing which of the nine pairs to
+include, which is Day 1's choice again.

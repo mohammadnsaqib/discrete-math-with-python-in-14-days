@@ -1,0 +1,16 @@
+the graph: ab:7  ac:9  af:14  bc:10  bd:15  cd:11  cf:2  de:6  ef:9
+                    tree   edges   a tree   weight
+        from a traversal       5     True       54
+              by Kruskal       5     True       33
+                 by Prim       5     True       33
+   the cheapest possible       -        -       33
+                NetworkX       5        -       33
+Kruskal's tree: ab ac cf de ef, Prim's: ab ac cf de ef
+
+   to    by cost    cost   by steps   its cost   NetworkX cost
+    a          a       0          a          0               0
+    b         ab       7         ab          7               7
+    c         ac       9         ac          9               9
+    d        acd      20        abd         22              20
+    e       acfe      20        afe         23              20
+    f        acf      11         af         14              11

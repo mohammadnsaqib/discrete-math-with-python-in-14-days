@@ -1,0 +1,21 @@
+addition modulo 5:
+      0   1   2   3   4
+  0   0   1   2   3   4
+  1   1   2   3   4   0
+  2   2   3   4   0   1
+  3   3   4   0   1   2
+  4   4   0   1   2   3
+
+multiplication modulo 5:
+      0   1   2   3   4
+  0   0   0   0   0   0
+  1   0   1   2   3   4
+  2   0   2   4   1   3
+  3   0   3   1   4   2
+  4   0   4   3   2   1
+
+triples where reducing first changed the answer: 0
+
+                        expression     the long way   reducing first   agree
+            123456 * 789012 mod 97               38               38    True
+          1048576 * 59049 mod 1009              522              522    True

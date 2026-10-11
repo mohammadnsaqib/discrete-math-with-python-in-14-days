@@ -1,0 +1,31 @@
+modulo 5: a**4 for a = 1 to 4
+   [1, 1, 1, 1]
+modulo 7: a**6 for a = 1 to 6
+   [1, 1, 1, 1, 1, 1]
+modulo 11: a**10 for a = 1 to 10
+   [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+    m   prime   values a with a**(m-1) = 1   holds for all
+    3    True                            2            True
+    4   False                            1           False
+    5    True                            4            True
+    6   False                            1           False
+    7    True                            6            True
+    8   False                            1           False
+    9   False                            2           False
+   10   False                            1           False
+   11    True                           10            True
+   12   False                            1           False
+   13    True                           12            True
+   14   False                            1           False
+   15   False                            4           False
+   16   False                            1           False
+   17    True                           16            True
+   18   False                            1           False
+   19    True                           18            True
+
+primes below 2000 where the theorem fails: []
+composites below 2000 that pass for every value coprime to them: [561, 1105, 1729]
+   561 = 3 * 187
+   1105 = 5 * 221
+   1729 = 7 * 247

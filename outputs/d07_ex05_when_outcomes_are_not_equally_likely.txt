@@ -1,0 +1,16 @@
+   sum   outcomes   true probability   if sums were equal     off by
+     2          1               1/36                 1/11    -0.0631
+     3          2               1/18                 1/11    -0.0354
+     4          3               1/12                 1/11    -0.0076
+     5          4                1/9                 1/11     0.0202
+     6          5               5/36                 1/11     0.0480
+     7          6                1/6                 1/11     0.0758
+     8          5               5/36                 1/11     0.0480
+     9          4                1/9                 1/11     0.0202
+    10          3               1/12                 1/11    -0.0076
+    11          2               1/18                 1/11    -0.0354
+    12          1               1/36                 1/11    -0.0631
+
+the eleven sums are NOT equally likely: 11 sums over 36 outcomes
+the outcomes summing to 2 : [(1, 1)]
+the outcomes summing to 7 : [(1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1)]

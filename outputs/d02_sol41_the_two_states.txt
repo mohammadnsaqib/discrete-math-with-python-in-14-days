@@ -1,0 +1,7 @@
+                                   claim       N   checked     state after the search
+             every integer 2..N is prime      10         3         settled FALSE by 4
+             every integer 2..N is prime     100         3         settled FALSE by 4
+             every integer 2..N is prime    1000         3         settled FALSE by 4
+   every integer 2..N has a prime factor      10         9                  unchanged
+   every integer 2..N has a prime factor     100        99                  unchanged
+   every integer 2..N has a prime factor    1000       999                  unchanged

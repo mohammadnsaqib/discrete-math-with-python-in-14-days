@@ -1,0 +1,11 @@
+the edges: [('ab', 1), ('ad', 10), ('bc', 1), ('cd', 1)]
+     route   steps    cost
+        ad       1      10
+      abcd       3       3
+
+   to     by steps   its cost      by cost   its cost
+    a            a          0            a          0
+    b           ab          1           ab          1
+    c           ac          7          abc          2
+    d          acd          8         abcd          3
+    e           ae         20        abcde          4

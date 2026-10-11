@@ -1,0 +1,8 @@
+parent      : [('ann', 'bob'), ('bob', 'cal'), ('ann', 'dee'), ('dee', 'eve')]
+grandparent : [('ann', 'cal'), ('ann', 'eve')]
+great-grand : []
+
+      relation   pairs
+        parent       4
+   grandparent       2
+   great-grand       0

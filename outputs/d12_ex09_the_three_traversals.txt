@@ -1,0 +1,8 @@
+the tree is the expression (2 + 3) * (9 - 4)
+       order                 the values           on a search tree   sorted
+    preorder              * + 2 3 - 9 4       [8, 3, 1, 6, 10, 14]    False
+     inorder              2 + 3 * 9 - 4       [1, 3, 6, 8, 10, 14]     True
+   postorder              2 3 + 9 4 - *       [1, 6, 3, 14, 10, 8]    False
+
+the postorder tokens: ['2', '3', '+', '9', '4', '-', '*']
+evaluated with a stack: 25, and directly: 25

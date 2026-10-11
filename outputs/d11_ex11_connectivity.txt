@@ -1,0 +1,9 @@
+                 graph   pieces   NetworkX   agree   largest piece
+           a ring of 5        1          1    True               5
+           a line of 5        1          1    True               5
+         five isolated        5          5    True               1
+         two triangles        2          2    True               3
+  two triangles joined        1          1    True               6
+
+the pieces of two triangles       : [[0, 1, 2], [3, 4, 5]]
+the pieces of two triangles joined: [[0, 1, 2, 3, 4, 5]]

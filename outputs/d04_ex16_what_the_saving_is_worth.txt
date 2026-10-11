@@ -1,0 +1,9 @@
+F(27) = 196418
+
+              method   batch   best of 5, seconds      per run   times fastest
+     plain recursion       1             0.041033  0.041032800         40584.3
+  memoised recursion    2000             0.018521  0.000009261             9.2
+           iterative    2000             0.002022  0.000001011             1.0
+
+the plain recursion enters itself 635621 times to compute F(27).
+the memoised one enters itself 28 times, 22701 times fewer.

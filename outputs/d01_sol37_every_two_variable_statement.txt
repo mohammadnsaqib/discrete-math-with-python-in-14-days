@@ -1,0 +1,15 @@
+assignments of 2 variables: 4
+possible columns, and so possible statements: 16
+
+                      column             name
+        ['F', 'F', 'F', 'F']    contradiction
+        ['F', 'F', 'F', 'T']          p and q
+        ['F', 'T', 'T', 'F']          p xor q
+        ['F', 'T', 'T', 'T']           p or q
+        ['T', 'F', 'F', 'T']          p iff q
+        ['T', 'T', 'F', 'T']      p implies q
+        ['T', 'T', 'T', 'F']    not (p and q)
+        ['T', 'T', 'T', 'T']        tautology
+
+8 of the 16 have ordinary names. The rest are no less real
+and nobody has bothered to name them, because each is a combination of these.

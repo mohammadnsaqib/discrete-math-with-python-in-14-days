@@ -1,0 +1,7 @@
+                   graph   largest clique   that many   largest degree   that plus one   the fewest
+             a ring of 5           [0, 1]           2                2               3            3
+             a ring of 6           [0, 1]           2                2               3            2
+           complete on 4     [0, 1, 2, 3]           4                3               4            4
+  a triangle with a tail        [0, 1, 2]           3                3               4            3
+    two triangles joined        [0, 1, 2]           3                3               4            3
+     a five-vertex wheel        [0, 1, 2]           3                4               5            3

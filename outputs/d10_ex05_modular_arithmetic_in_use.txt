@@ -1,0 +1,12 @@
+  start   hours   lands on
+      9       4          1
+      9      16          1
+      3      24          3
+     11     100          3
+
+the body of an identifier: [9, 7, 8, 0, 3, 0, 6, 4, 0, 6, 1, 5]
+the check digit that makes the weighted sum 0 modulo 10: 7
+the weighted sum of the whole thing: 100, modulo 10: 0
+
+single-digit changes tried: 108, caught: 108
+neighbour swaps tried: 11, caught: 10

@@ -1,0 +1,9 @@
+     limit    sieve   trial division   agree
+       100       25               25    True
+      1000      168              168    True
+     10000     1229             1229    True
+
+     limit   sieve, seconds   trial, seconds   times slower
+     10000         0.000945         0.004236            4.5
+     40000         0.004069         0.024041            5.9
+    160000         0.022305         0.147292            6.6

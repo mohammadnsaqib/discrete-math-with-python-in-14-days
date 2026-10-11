@@ -1,0 +1,10 @@
+31 lists of length 0 to 4 over two items
+
+               xs           ys                     xs + ys  lengths add
+               ()           ()                          ()         True
+           ('a',)           ()                      ('a',)         True
+       ('a', 'b')       ('a',)             ('a', 'b', 'a')         True
+  ('b', 'a', 'b')   ('a', 'a')   ('b', 'a', 'b', 'a', 'a')         True
+
+pairs among 961 where the lengths did not add: 0
+lists where reversing twice did not return the original: 0

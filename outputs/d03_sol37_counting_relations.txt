@@ -1,0 +1,4 @@
+  n  all relations   reflexive   symmetric   transitive  equivalences
+  1              2           1           2            2             1
+  2             16           4           8           13             2
+  3            512          64          64          171             5

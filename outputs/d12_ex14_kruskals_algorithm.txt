@@ -1,0 +1,13 @@
+      edge   weight   joins two pieces   taken
+('a', 'c')        1               True    True
+('b', 'c')        2               True    True
+('d', 'e')        2               True    True
+('e', 'f')        3               True    True
+('a', 'b')        4              False   False
+('b', 'd')        5               True    True
+('d', 'f')        6              False   False
+('c', 'd')        8              False   False
+('c', 'e')       10              False   False
+
+the tree: [('a', 'c'), ('b', 'c'), ('b', 'd'), ('d', 'e'), ('e', 'f')], a tree: True, total weight 13
+the cheapest over all 55 spanning trees: 13, and they agree: True

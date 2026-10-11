@@ -1,0 +1,20 @@
+  leaves    trees   leaves = operators + 1    nodes <= 2**(h+1) - 1
+       1        1                     True                     True
+       2        1                     True                     True
+       3        2                     True                     True
+       4        5                     True                     True
+       5       14                     True                     True
+       6       42                     True                     True
+       7      132                     True                     True
+
+of the 14 trees over 5 leaves, the tallest has height 4
+and the shortest has height 3. Both have 5 leaves
+and 4 operators.
+
+  leaves   trees at the bound
+       1                    1
+       2                    1
+       3                    0
+       4                    1
+       5                    0
+       8                    1

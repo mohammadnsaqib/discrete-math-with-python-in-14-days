@@ -1,0 +1,22 @@
+integers from -5 to 19999 where the two disagree: []
+
+           n   the book    SymPy   agree
+          -3      False    False    True
+           0      False    False    True
+           1      False    False    True
+           2       True     True    True
+           3       True     True    True
+           4      False    False    True
+         561      False    False    True
+        1105      False    False    True
+        2047      False    False    True
+        8191       True     True    True
+       65537       True     True    True
+      999983       True     True    True
+     1000000      False    False    True
+
+four numbers that pass a common quick test and are not prime:
+   561 = 3 * 187, prime: False
+   1105 = 5 * 221, prime: False
+   1729 = 7 * 247, prime: False
+   2465 = 5 * 493, prime: False

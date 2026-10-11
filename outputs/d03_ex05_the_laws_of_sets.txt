@@ -1,0 +1,12 @@
+universe of 4 members, so 16 subsets, 256 pairs and 4096 triples
+
+                             law    cases   holds
+               commutative union      256    True
+        commutative intersection      256    True
+                      absorption      256    True
+                de Morgan, union      256    True
+         de Morgan, intersection      256    True
+      difference as intersection      256    True
+               associative union     4096    True
+         distributive over union     4096    True
+  distributive over intersection     4096    True

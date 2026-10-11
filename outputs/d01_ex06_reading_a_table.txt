@@ -1,0 +1,14 @@
+     p      q      r   value
+ False  False  False   False
+ False  False   True   False
+ False   True  False    True
+ False   True   True   False
+  True  False  False    True
+  True  False   True   False
+  True   True  False    True
+  True   True   True   False
+
+rows where it holds: 3 of 8
+   p=False, q=True, r=False
+   p=True, q=False, r=False
+   p=True, q=True, r=False

@@ -1,0 +1,22 @@
+   m   congruences   solvable   answers found   matches a full search
+   2             2          2               2                    True
+   3             6          6               6                    True
+   4            12         10              12                    True
+   5            20         20              20                    True
+   6            30         20              30                    True
+   7            42         42              42                    True
+   8            56         42              56                    True
+   9            72         60              72                    True
+  10            90         62              90                    True
+  11           110        110             110                    True
+  12           132         76             132                    True
+  13           156        156             156                    True
+  14           182        128             182                    True
+  15           210        146             210                    True
+
+            congruence   gcd   answers                     they are
+         6x = 4 mod 10     2         2                       [4, 9]
+         6x = 5 mod 10     2         0                           []
+         9x = 6 mod 15     3         3                   [4, 9, 14]
+        14x = 7 mod 21     7         7    [2, 5, 8, 11, 14, 17, 20]
+         8x = 4 mod 12     4         4                [2, 5, 8, 11]

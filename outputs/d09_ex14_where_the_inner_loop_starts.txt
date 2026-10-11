@@ -1,0 +1,16 @@
+     limit   starting at 2p   starting at p*p   writes saved   share saved
+       100              113               104              9        0.0796
+      1000             1549              1411            138        0.0891
+     10000            17991             16981           1010        0.0561
+    100000           202154            193078           9076        0.0449
+   1000000          2197839           2122048          75791        0.0345
+
+the multiples of 7 below 7*7: [14, 21, 28, 35, 42]
+each of them has a factor below 7, so each was crossed out already:
+    14 was crossed out by 2
+    21 was crossed out by 3
+    28 was crossed out by 2
+    35 was crossed out by 5
+    42 was crossed out by 2
+
+the two starting rules find the same primes below 10000: True

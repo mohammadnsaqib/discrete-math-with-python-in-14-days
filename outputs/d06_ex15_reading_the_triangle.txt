@@ -1,0 +1,34 @@
+  diagonal                  the first eight entries          what they are
+         0                 [1, 1, 1, 1, 1, 1, 1, 1]               all ones
+         1                 [1, 2, 3, 4, 5, 6, 7, 8]   the counting numbers
+         2            [1, 3, 6, 10, 15, 21, 28, 36] the triangular numbers
+         3          [1, 4, 10, 20, 35, 56, 84, 120] the tetrahedral numbers
+
+   n    k   sum down the diagonal   binomial(n+1, k+1)   agree
+   0    0                       1                    1    True
+   1    0                       2                    2    True
+   2    0                       3                    3    True
+   3    0                       4                    4    True
+   1    1                       1                    1    True
+   2    1                       3                    3    True
+   3    1                       6                    6    True
+   4    1                      10                   10    True
+   2    2                       1                    1    True
+   3    2                       4                    4    True
+   4    2                      10                   10    True
+   5    2                      20                   20    True
+   3    3                       1                    1    True
+   4    3                       5                    5    True
+   5    3                      15                   15    True
+   6    3                      35                   35    True
+
+   n   largest entry   where it sits   row total   largest share
+   2               2               1           4          0.5000
+   3               3               1           8          0.3750
+   4               6               2          16          0.3750
+   5              10               2          32          0.3125
+   6              20               3          64          0.3125
+   7              35               3         128          0.2734
+   8              70               4         256          0.2734
+   9             126               4         512          0.2461
+  10             252               5        1024          0.2461

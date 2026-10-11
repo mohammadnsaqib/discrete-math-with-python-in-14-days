@@ -1,0 +1,18 @@
+  exponent          in binary   squarings   multiplications   one at a time
+         5                101           2                 1               4
+        13               1101           3                 2              12
+       100            1100100           6                 2              99
+      1000         1111101000           9                 5             999
+     65537  10000000000000001          16                 1           65536
+   1000000 11110100001001000000          19                 6          999999
+
+computing 7**13 mod 1009 by squaring:
+   bit set: result becomes 7
+   square : the running base becomes 49
+   square : the running base becomes 383
+   bit set: result becomes 663
+   square : the running base becomes 384
+   bit set: result becomes 324
+   the answer is 324, and pow gives 324
+
+triples where the book's routine and pow disagree: 0

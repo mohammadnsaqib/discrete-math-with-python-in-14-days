@@ -1,0 +1,15 @@
+         n                                     the book   agrees with SymPy
+        12                                     2**2 * 3                True
+        97                                           97                True
+       360                              2**3 * 3**2 * 5                True
+      1024                                        2**10                True
+    999983                                       999983                True
+   1000000                                  2**6 * 5**6                True
+   1048575                      3 * 5**2 * 11 * 31 * 41                True
+
+integers from 2 to 19999 where the two disagree: []
+
+a product of two primes: 1000036000099
+   the book gives  : [(1000003, 1), (1000033, 1)]
+   multiplied back : 1000036000099
+   SymPy gives     : [(1000003, 1), (1000033, 1)]

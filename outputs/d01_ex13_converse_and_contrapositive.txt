@@ -1,0 +1,8 @@
+     p      q           p implies q           q implies p   not p implies not q   not q implies not p
+ False  False                  True                  True                  True                  True
+ False   True                  True                 False                 False                  True
+  True  False                 False                  True                  True                 False
+  True   True                  True                  True                  True                  True
+
+equivalent: the conditional and the contrapositive
+equivalent: the converse and the inverse

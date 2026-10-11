@@ -1,0 +1,5 @@
+                        collection  by the rule  by building  verdict
+          all arrangements of five          120          120  agree
+             those starting with a           24           24  agree
+            those with a next to b           48           48  agree
+        those with a NOT next to b           72           72  agree

@@ -1,0 +1,9 @@
+relation: a divides b, on the divisors of 12
+   reflexive     : True
+   antisymmetric : True
+   transitive    : True
+   symmetric     : False
+
+pairs where neither divides the other: [(2, 3), (3, 4), (4, 6)]
+
+of the 15 unordered pairs, 3 are incomparable.

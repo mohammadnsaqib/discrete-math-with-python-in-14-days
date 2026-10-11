@@ -1,0 +1,8 @@
+                       claim   base   step  what it means
+         sum 1..n = n(n+1)/2   True   True  both halves hold over the range
+     sum 1..n = n(n+1)/2 + 7  False   True  move the base, or the claim is false everywhere
+         n! is at least 2**n  False   True  move the base, or the claim is false everywhere
+  n! is at least 2**n from 4   True   True  both halves hold over the range
+    n is not a multiple of 7   True  False  the chain is cut at 6
+       2**n is at least n**2   True  False  the chain is cut at 2
+             n is at least 5  False   True  move the base, or the claim is false everywhere

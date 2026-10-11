@@ -1,0 +1,8 @@
+n(n+1)/2 equals the sum to n
+   base holds; step holds across 299 values
+2**n is greater than n
+   base holds; step holds across 300 values
+n is at least 5
+   BASE FAILS at 1; step holds across 299 values
+n squared is greater than 10
+   BASE FAILS at 1; step holds across 299 values

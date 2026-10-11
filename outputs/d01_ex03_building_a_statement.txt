@@ -1,0 +1,6 @@
+p = True, q = False, r = True
+
+  not q                    = True
+  p and (not q)            = True
+  q or r                   = True
+  (p and not q) implies (q or r) = True

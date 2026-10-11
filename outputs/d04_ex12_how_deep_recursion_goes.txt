@@ -1,0 +1,10 @@
+the interpreter's recursion limit is 1000
+
+ depth asked                       result
+          10                           10
+         100                          100
+         900                          900
+        2000 RecursionError: limit reached
+       20000 RecursionError: limit reached
+
+the same count at 1000000, computed iteratively: 1000000

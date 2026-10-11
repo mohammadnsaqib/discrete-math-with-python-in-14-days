@@ -1,0 +1,8 @@
+                             formula  first size that differs     said    built
+               subsets of n, correct             none in 0..7     None     None
+            subsets of n, off by one                        0        0        1
+             orderings of n, correct             none in 0..7     None     None
+          orderings of n, using n**n                        2        4        2
+               pairs from n, correct             none in 0..7     None     None
+   pairs from n, forgetting the half                        2        2        1
+          strings of length 3 over n             none in 0..7     None     None

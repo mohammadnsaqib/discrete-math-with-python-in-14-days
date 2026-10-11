@@ -1,0 +1,11 @@
+a ring of four with every weight 1
+   spanning trees: 4, their costs [3, 3, 3, 3]
+   every one is cheapest: True
+   Kruskal gives [('a', 'b'), ('a', 'd'), ('b', 'c')]
+   Prim gives    [('a', 'b'), ('a', 'd'), ('b', 'c')]
+   the same tree: True, the same cost: True
+
+                    tie-break rule                      the tree it gives   weight
+  weight, then endpoints ascending   [('a', 'b'), ('a', 'd'), ('b', 'c')]        3
+ weight, then endpoints descending   [('a', 'd'), ('b', 'c'), ('c', 'd')]        3
+weight, then second endpoint first   [('a', 'b'), ('a', 'd'), ('b', 'c')]        3

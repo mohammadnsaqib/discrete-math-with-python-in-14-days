@@ -1,0 +1,12 @@
+                                    rule   holds
+            every probability is in 0..1    True
+       the whole space has probability 1    True
+       the empty event has probability 0    True
+        complement: P(not A) is 1 - P(A)    True
+    union of two that never overlap adds    True
+  union in general needs the overlap out    True
+
+               P(sum is 7)      1/6
+            P(sum below 5)      1/6
+       P(at least one six)    11/36
+            P(7 and a six)     1/18

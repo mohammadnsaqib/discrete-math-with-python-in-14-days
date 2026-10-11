@@ -1,0 +1,17 @@
+     a      b     in    sum   carry   a+b+in
+ False  False  False  False   False        0
+ False  False   True   True   False        1
+ False   True  False   True   False        1
+ False   True   True  False    True        2
+  True  False  False   True   False        1
+  True  False   True  False    True        2
+  True   True  False  False    True        2
+  True   True   True   True    True        3
+
+rows where the two output bits did not add up to a + b + in: 0
+
+              output   terms   gates   layers                               the expression
+      half adder sum       2       5        3               (not a and b) or (a and not b)
+    half adder carry       1       1        1                                    (a and b)
+      full adder sum       4       8        3 (not a and not b and c) or (not a and b a...
+    full adder carry       3       4        2          (b and c) or (a and c) or (a and b)

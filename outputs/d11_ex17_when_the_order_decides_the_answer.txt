@@ -1,0 +1,11 @@
+neighbours smallest first: ['a', 'b', 'd', 'c', 'f', 'e'], the tree [('a', 'b'), ('b', 'd'), ('c', 'd'), ('c', 'f'), ('e', 'f')]
+neighbours largest first : ['a', 'c', 'f', 'e', 'd', 'b'], the tree [('a', 'c'), ('b', 'd'), ('c', 'f'), ('d', 'e'), ('e', 'f')]
+the same order: False, the same tree: False
+
+  start             smallest first              largest first   same
+      a                     abdcfe                     acfedb  False
+      b                     bacdef                     bdefca  False
+      c                     cabdef                     cfedba  False
+      d                     dbacfe                     defcab  False
+      e                     edbacf                     efcdba  False
+      f                     fcabde                     fedcab  False

@@ -1,0 +1,8 @@
+claim: every positive integer is at least 100
+   BASE FAILS at 1; step holds across 399 values
+
+the step holds at every one of the 399 values checked. If n is at least 100
+then n+1 is too, and there is no way for that to fail.
+
+and the claim is false at n = 1: False
+   false at 1 through 99, true from 100 on. Values checked: 99 false, 300 true.

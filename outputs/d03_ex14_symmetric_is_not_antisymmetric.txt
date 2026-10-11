@@ -1,0 +1,6 @@
+        relation   symmetric   antisymmetric            which
+        equality        True            True             both
+      everything        True           False        symmetric
+         at most       False            True    antisymmetric
+  differs by one        True           False        symmetric
+   one pair only       False            True    antisymmetric

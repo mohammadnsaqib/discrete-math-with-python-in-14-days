@@ -1,0 +1,6 @@
+                        collection  by the rule  by building  verdict
+        two seats, repeats allowed           16           16  agree
+             two seats, no repeats           16           12  DISAGREE
+ the same, with the rule corrected           12           12  agree
+
+the pairs with a repeat: [('Ada', 'Ada'), ('Ben', 'Ben'), ('Cleo', 'Cleo'), ('Dan', 'Dan')]

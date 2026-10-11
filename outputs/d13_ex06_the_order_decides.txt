@@ -1,0 +1,12 @@
+the graph: [('a', 'd'), ('a', 'e'), ('b', 'e'), ('b', 'f'), ('c', 'd'), ('c', 'f')]
+the fewest colours: 2
+
+     order   colours used   proper    the colours, a to f
+    abcdef              2     True            0 0 0 1 1 1
+    adbecf              2     True            0 0 0 1 1 1
+    fedcba              2     True            1 1 1 0 0 0
+    adefbc              3     True            0 2 2 1 1 0
+
+  colours used   orders giving it    share
+             2                480   0.6667
+             3                240   0.3333

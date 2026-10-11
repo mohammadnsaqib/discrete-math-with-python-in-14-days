@@ -1,0 +1,27 @@
+1 dice, 6 outcomes
+                     event     hits       of          P as a decimal     P(not)
+           the sum is even        3        6        1/2     0.500000        1/2
+          at least one six        1        6        1/6     0.166667        5/6
+            all dice match        6        6          1     1.000000          0
+           all dice differ        6        6          1     1.000000          0
+     the sum is at least 4        3        6        1/2     0.500000        1/2
+
+2 dice, 36 outcomes
+                     event     hits       of          P as a decimal     P(not)
+           the sum is even       18       36        1/2     0.500000        1/2
+          at least one six       11       36      11/36     0.305556      25/36
+            all dice match        6       36        1/6     0.166667        5/6
+           all dice differ       30       36        5/6     0.833333        1/6
+     the sum is at least 8       15       36       5/12     0.416667       7/12
+
+3 dice, 216 outcomes
+                     event     hits       of          P as a decimal     P(not)
+           the sum is even      108      216        1/2     0.500000        1/2
+          at least one six       91      216     91/216     0.421296    125/216
+            all dice match        6      216       1/36     0.027778      35/36
+           all dice differ      120      216        5/9     0.555556        4/9
+    the sum is at least 12       81      216        3/8     0.375000        5/8
+
+                      P(all match)        1/6
+   P(all match | at least one six)       1/11
+                      expected sum          7

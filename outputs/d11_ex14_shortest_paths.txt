@@ -1,0 +1,20 @@
+  from   to                      route   length   NetworkX length   agree
+     a    a                          a        0                 0    True
+     a    b                         ab        1                 1    True
+     a    c                         ac        1                 1    True
+     a    d                        abd        2                 2    True
+     a    e                        ace        2                 2    True
+     a    f                       abdf        3                 3    True
+     a    g                      abdfg        4                 4    True
+     b    a                         ba        1                 1    True
+     b    b                          b        0                 0    True
+     b    c                        bac        2                 2    True
+     b    d                         bd        1                 1    True
+     b    e                       bace        3                 3    True
+     b    f                        bdf        2                 2    True
+     b    g                       bdfg        3                 3    True
+
+in a graph of two pieces, the route from a to c is: None
+and from a to b it is: ['a', 'b']
+
+vertices where the route length and the search distance differ: []

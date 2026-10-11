@@ -1,0 +1,10 @@
+                        collection  by the rule  by building  verdict
+              a size and a flavour            6            6  agree
+       a size, a flavour and a box           12           12  agree
+         a size and one of nothing            0            0  agree
+
+the first four of the twelve:
+   ('small', 'plain', 'paper')
+   ('small', 'plain', 'tin')
+   ('small', 'salted', 'paper')
+   ('small', 'salted', 'tin')

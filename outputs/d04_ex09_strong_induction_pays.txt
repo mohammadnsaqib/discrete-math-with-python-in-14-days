@@ -1,0 +1,9 @@
+    n     as a product of primes
+   12                  [2, 2, 3]
+   17                       [17]
+   60               [2, 2, 3, 5]
+   97                       [97]
+  360         [2, 2, 2, 3, 3, 5]
+
+amounts below 40 that cannot be paid in 3s and 5s: [1, 2, 4, 7]
+the largest of them is 7, so the base cases are 8, 9 and 10.

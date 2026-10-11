@@ -1,0 +1,13 @@
+                    inserted   pre + in rebuilds   post + in rebuilds
+                      [2, 1]                True                 True
+               [8, 3, 10, 1]                True                 True
+       [5, 2, 8, 1, 3, 7, 9]                True                 True
+     [8, 3, 10, 1, 6, 14, 4]                True                 True
+rebuilds that did not match the original: 0
+
+the 5 distinct trees from the six insertion orders of 1, 2, 3:
+   (1.(2.(3..))): from ['123']
+   (1.(3(2..).)): from ['132']
+   (2(1..)(3..)): from ['213', '231']
+   (3(1.(2..)).): from ['312']
+   (3(2(1..).).): from ['321']

@@ -1,0 +1,30 @@
+the matrix to the power 1:
+      a   b   c   d
+  a   0   1   0   1
+  b   1   0   1   0
+  c   0   1   0   1
+  d   1   0   1   0
+
+the matrix to the power 2:
+      a   b   c   d
+  a   2   0   2   0
+  b   0   2   0   2
+  c   2   0   2   0
+  d   0   2   0   2
+
+the matrix to the power 3:
+      a   b   c   d
+  a   0   4   0   4
+  b   4   0   4   0
+  c   0   4   0   4
+  d   4   0   4   0
+
+  from   to   length   by the matrix   by building   agree
+     a    a        1               0             0    True
+     a    a        2               2             2    True
+     a    a        3               0             0    True
+     a    c        1               0             0    True
+     a    c        2               2             2    True
+     a    c        3               0             0    True
+
+places where the matrix and the built walks disagreed: 0

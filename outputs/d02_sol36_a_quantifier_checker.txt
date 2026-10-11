@@ -1,0 +1,15 @@
+every integer from 2 to 200 is prime
+   REFUTED by 4, found after 3 of the integers 2 to 200
+   substitute 4 into the claim and it fails
+
+every integer from 2 to 200 has a prime factor
+   no counterexample in 199 of the integers 2 to 200 -- this settles nothing about the rest
+   the claim is where it was before this ran
+
+every multiple of 4 below 400 is a multiple of 2
+   no counterexample in 100 of the multiples of 4 below 400 -- this settles nothing about the rest
+   the claim is where it was before this ran
+
+every integer from 1 to 300 is a sum of three squares
+   REFUTED by 7, found after 7 of the integers 1 to 300
+   substitute 7 into the claim and it fails

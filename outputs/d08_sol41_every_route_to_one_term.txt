@@ -1,0 +1,18 @@
+a(n) = 3*a(n-1) - 2*a(n-2), a(0) = 2, a(1) = 5
+   the first eight terms : [2, 5, 11, 23, 47, 95, 191, 383]
+   the roots             : ['1', '2']
+   the closed form       : -1 * 1**n + 3 * 2**n
+   SymPy gives           : 3*2**n - 1
+
+                     route                term 50   agrees with the iteration
+                 iteration       3377699720527871                           -
+           the closed form       3377699720527871                        True
+                     SymPy       3377699720527871                        True
+   running totals, term 50       6755399441055690                           -
+
+first disagreement between the closed form and the iteration: None
+
+                     route   seconds for term 5000   times the faster
+                 iteration                0.007761              550.4
+           the closed form                0.000014                1.0
+and the two agree at term 5000: True

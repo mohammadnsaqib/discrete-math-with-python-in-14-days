@@ -1,0 +1,4 @@
+                     n squared is greater than n: REFUTED by 0, member 4 of 33
+                   the sum of two primes is even: REFUTED by (2, 3), member 2 of 100
+some two of any three integers sum to an even number: none in 64 members
+                n cubed is bigger than n squared: REFUTED by -2, member 1 of 22

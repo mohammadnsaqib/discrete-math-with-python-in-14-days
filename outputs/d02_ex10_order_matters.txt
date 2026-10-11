@@ -1,0 +1,6 @@
+the pairs: ann->bob, ann->cal, bob->cal, cal->bob
+
+        everybody admires somebody: True
+        somebody admires everybody: False
+  somebody is admired by everybody: False
+  everybody is admired by somebody: False

@@ -1,0 +1,19 @@
+  length    by the rule    by building    agree
+       0              1              1     True
+       1              4              4     True
+       2             12             12     True
+       3             36             36     True
+       4            108            108     True
+       5            324            324     True
+       6            972            972     True
+       7           2916           2916     True
+       8           8748           8748     True
+
+the six shortest of length 3: ['aba', 'abc', 'abd', 'aca', 'acb', 'acd']
+
+length  20: 4649045868
+length  40: 16210220612075905068
+length  60: 56521544366954938019059244268
+
+all strings of length 60: 1329227995784915872903807060280344576
+the share with no repeat next to itself: 4.252e-08

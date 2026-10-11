@@ -1,0 +1,6 @@
+claim: every member of the domain is a perfect square
+
+                        domain   members   holds
+    the squares 0, 1, 4, 9, 16         5    True
+           the integers 0 to 4         5   False
+          the integers 0 to 20        21   False

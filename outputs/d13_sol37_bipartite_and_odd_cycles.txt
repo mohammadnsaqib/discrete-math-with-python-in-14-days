@@ -1,0 +1,11 @@
+  vertices   graphs   bipartite   two-colourable   no odd cycle   all three agree
+         2        2           2                2              2              True
+         3        8           7                7              7              True
+         4       64          41               41             41              True
+         5     1024         376              376            376              True
+
+                     graph   bipartite                     the two groups
+               a ring of 4        True                   ([0, 2], [1, 3])
+               a ring of 5       False                               None
+               a star of 5        True                ([0], [1, 2, 3, 4])
+               a line of 6        True             ([0, 2, 4], [1, 3, 5])

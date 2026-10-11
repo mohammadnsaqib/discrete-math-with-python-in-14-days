@@ -1,0 +1,4 @@
+                       claim   for all   there exists
+        every member is even      True          False
+         every member is odd      True          False
+        every member is both      True          False

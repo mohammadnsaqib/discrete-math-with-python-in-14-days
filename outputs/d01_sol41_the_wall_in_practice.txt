@@ -1,0 +1,8 @@
+A statement over n switches: 'not all of them agree'.
+
+  switches             rows   rows until a witness   share looked at
+         4               16                      2       12.500000%
+         8              256                      2        0.781250%
+        12            4,096                      2        0.048828%
+        16           65,536                      2        0.003052%
+        20        1,048,576                      2        0.000191%

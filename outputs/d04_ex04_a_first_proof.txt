@@ -1,0 +1,9 @@
+    n     sum 1..n     n(n+1)/2   agree
+    1            1            1    True
+    2            3            3    True
+    3            6            6    True
+   10           55           55    True
+  100         5050         5050    True
+ 1000       500500       500500    True
+
+first disagreement in 1..4999: None

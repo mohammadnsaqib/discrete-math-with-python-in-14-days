@@ -1,0 +1,18 @@
+                function   terms from the rows   terms after search   letters saved
+   at least two of three                     4                    3               6
+         a alone decides                     4                    1              11
+           an odd number                     4                    4               0
+               all three                     1                    1               0
+                   never                     0                    0               0
+
+smaller expressions whose column changed: 0
+
+at least two of three:
+   from the rows: (not a and b and c) or (a and not b and c) or (a and b and not c) or (a and b and c)
+   after search : (b and c) or (a and c) or (a and b)
+a alone decides:
+   from the rows: (a and not b and not c) or (a and not b and c) or (a and b and not c) or (a and b and c)
+   after search : (a)
+an odd number:
+   from the rows: (not a and not b and c) or (not a and b and not c) or (a and not b and not c) or (a and b and c)
+   after search : (not a and not b and c) or (not a and b and not c) or (a and not b and not c) or (a and b and c)

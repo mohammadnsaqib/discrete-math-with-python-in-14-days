@@ -1,0 +1,16 @@
+     a      b      c    alarm
+ False  False  False    False
+ False  False   True    False
+ False   True  False    False
+ False   True   True     True
+  True  False  False    False
+  True  False   True     True
+  True   True  False     True
+  True   True   True     True
+
+the True rows : [3, 5, 6, 7]
+the expression: (not a and b and c) or (a and not b and c) or (a and b and not c) or (a and b and c)
+it rebuilds the column and agrees with the rule: True
+
+a shorter rule written by hand: (a and b) or (a and c) or (b and c)
+   the same function: True

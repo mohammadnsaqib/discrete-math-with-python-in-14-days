@@ -1,0 +1,27 @@
+                            method                 the recurrence
+                     binary search              T(n) = T(n/2) + 1
+                        merge sort            T(n) = 2*T(n/2) + n
+                 a three-way split            T(n) = 3*T(n/2) + n
+
+    size      binary search         merge sort    three-way split
+       1                  1                  1                  1
+       2                  2                  4                  5
+       4                  3                 12                 19
+       8                  4                 32                 65
+      16                  5                 80                211
+      32                  6                192                665
+      64                  7                448               2059
+     128                  8               1024               6305
+     256                  9               2304              19171
+     512                 10               5120              58025
+    1024                 11              11264             175099
+
+only powers of two appear, because those are the sizes where halving is exact and
+the recurrence says anything at all. Sizes between them are interpolated by every
+textbook and by nothing here.
+
+    size    merge sort cost     n log2 n    ratio
+       8                 32           24   1.3333
+      64                448          384   1.1667
+     512               5120         4608   1.1111
+    1024              11264        10240   1.1000

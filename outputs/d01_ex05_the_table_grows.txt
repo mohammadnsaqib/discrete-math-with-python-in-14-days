@@ -1,0 +1,14 @@
+  variables                       rows   rows actually built
+          1                          2                     2
+          2                          4                     4
+          3                          8                     8
+          4                         16                    16
+          8                        256                   256
+         12                      4,096                 4,096
+         16                     65,536             not built
+         20                  1,048,576             not built
+         30              1,073,741,824             not built
+         64 18,446,744,073,709,551,616             not built
+
+at one row every nanosecond the last row would take 584.5 years
+Nothing is wrong with the method. The method is exhaustive and that is its cost.

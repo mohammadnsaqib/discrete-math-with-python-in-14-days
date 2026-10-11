@@ -1,0 +1,7 @@
+        relation  pairs   reflexive   symmetric   transitive
+        equality      3        True        True         True
+      everything      9        True        True         True
+         nothing      0       False        True         True
+       less than      3       False       False         True
+         at most      6        True       False         True
+  differs by one      4       False        True        False

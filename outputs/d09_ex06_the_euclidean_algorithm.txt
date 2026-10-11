@@ -1,0 +1,15 @@
+         a        b      gcd   steps   library   agree
+        48       18        6       3         6    True
+       270      192        6       4         6    True
+      1071      462       21       3        21    True
+   1000000        2        2       1         2    True
+        17        5        1       3         1    True
+ 123456789 987654321        9       3         9    True
+
+the algorithm on (1071, 462):
+    1071 =  2 *  462 +  147
+     462 =  3 *  147 +   21
+     147 =  7 *   21 +    0
+   the last non-zero remainder is 21
+
+pairs from 1 to 59 where the routine and the library disagree: 0

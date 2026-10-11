@@ -1,0 +1,13 @@
+A = {1, 2, 3, 4, 5, 6}
+B = {4, 5, 6, 7, 8}
+U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+             A union B : {1, 2, 3, 4, 5, 6, 7, 8}           8 members
+         A intersect B : {4, 5, 6}                          3 members
+             A minus B : {1, 2, 3}                          3 members
+             B minus A : {7, 8}                             2 members
+  symmetric difference : {1, 2, 3, 7, 8}                    5 members
+  complement of A in U : {7, 8, 9, 10}                      4 members
+
+|A| + |B| = 11, and |A union B| = 8.
+the difference is 3, which is |A intersect B| = 3. Day 5 makes a rule of that.

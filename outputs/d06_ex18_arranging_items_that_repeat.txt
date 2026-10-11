@@ -1,0 +1,11 @@
+      word   letters           counts   by the rule   distinct built   agree
+       abc         3        [1, 1, 1]             6                6    True
+       aab         3           [2, 1]             3                3    True
+      aaab         4           [3, 1]             4                4    True
+      abab         4           [2, 2]             6                6    True
+    banana         6        [3, 1, 2]            60               60    True
+    letter         6     [2, 1, 1, 2]           180              180    True
+
+itertools gives 6 arrangements of 'aab': ['aab', 'aba', 'aab', 'aba', 'baa', 'baa']
+distinct ones: ['aab', 'aba', 'baa']
+3! is 6 and 2! is 2, so 6 over 2 is 3

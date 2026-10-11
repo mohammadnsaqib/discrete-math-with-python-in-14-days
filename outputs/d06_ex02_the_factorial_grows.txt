@@ -1,0 +1,14 @@
+   items                       arrangements   digits  times the row above
+       1                                  1        1                    -
+       5                                120        3            1.200e+02
+      10                            3628800        7            3.024e+04
+      15                      1307674368000       13            3.604e+05
+      20                2432902008176640000       19            1.860e+06
+      25         15511210043330985984000000       26            6.376e+06
+      30  265252859812191058636308480000000       33            1.710e+07
+
+   items   seconds to build at a million a second
+      10                              3.6 seconds
+      15                        1307674.4 seconds
+      20                          7.715e+04 years
+      25                          4.919e+11 years

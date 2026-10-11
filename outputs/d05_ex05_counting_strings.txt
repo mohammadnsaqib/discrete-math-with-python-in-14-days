@@ -1,0 +1,16 @@
+  length    by the rule    by building    agree
+       0              1              1     True
+       1              4              4     True
+       2             16             16     True
+       3             64             64     True
+       4            256            256     True
+       5           1024           1024     True
+       6           4096           4096     True
+       7          16384          16384     True
+
+the eight strings of length 2 starting with a or b: ['aa', 'ab', 'ac', 'ad', 'ba', 'bb', 'bc', 'bd']
+
+strings of length 12 over 26 letters: 95428956661682176
+that one was NOT built. Building it at a million strings a second would take about
+3026 years. So the rule is used, and the check is left to the small cases above,
+where the rule and the collection it sizes agree at every length.

@@ -1,0 +1,6 @@
+                wanted    True rows   rebuilt                   the expression
+   exactly one of a, b       [1, 2]      True   (not a and b) or (a and not b)
+          at least one    [1, 2, 3]      True (not a and b) or (a and not b) or (a and b)
+                  both          [3]      True                        (a and b)
+                 never           []      True                            False
+                always [0, 1, 2, 3]      True                             True

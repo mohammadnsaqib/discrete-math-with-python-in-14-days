@@ -1,0 +1,8 @@
+                                              sentence   statement?     value
+                                       Seven is prime.         True      True
+                                        Seven is even.         True     False
+                                 Twelve divides sixty.         True      True
+   Every even number above two is a sum of two primes.         True unsettled
+                                      What time is it?        False         -
+                                       Close the door.        False         -
+                               x is greater than five.        False         -

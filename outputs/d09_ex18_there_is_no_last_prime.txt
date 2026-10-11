@@ -1,0 +1,14 @@
+              known primes    product + 1   prime?            its factors
+                       [2]              3     True                    [3]
+                    [2, 3]              7     True                    [7]
+                 [2, 3, 7]             43     True                   [43]
+             [2, 3, 7, 43]           1807    False              [13, 139]
+         [2, 3, 7, 13, 43]          23479    False              [53, 443]
+     [2, 3, 7, 13, 43, 53]        1244335    False            [5, 248867]
+
+the list grew to [2, 3, 5, 7, 13, 43, 53], all of them prime: True
+
+starting from every prime below 20: [2, 3, 5, 7, 11, 13, 17, 19]
+   their product plus one is 9699691
+   it is prime: False
+   its factors are [347, 27953], none of which is in the list

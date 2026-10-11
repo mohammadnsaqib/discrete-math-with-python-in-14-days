@@ -1,0 +1,7 @@
+before any call: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+after F(30)    : CacheInfo(hits=28, misses=31, maxsize=None, currsize=31)
+after F(30) twice: CacheInfo(hits=29, misses=31, maxsize=None, currsize=31)
+after F(60)    : CacheInfo(hits=60, misses=61, maxsize=None, currsize=61)
+
+  entries kept     hits   misses   hit rate
+            61       60       61      0.496

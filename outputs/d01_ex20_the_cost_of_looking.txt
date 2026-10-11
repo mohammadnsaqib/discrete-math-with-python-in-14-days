@@ -1,0 +1,11 @@
+  variables           rows     seconds    ratio
+         12          4,096     0.00902
+         14         16,384     0.04461     4.95
+         16         65,536     0.22721     5.09
+         18        262,144     0.91569     4.03
+         20      1,048,576     4.59018     5.01
+
+each row costs about 4378 nanoseconds at this size
+  24 variables would take about 73 seconds
+  32 variables would take about 5.2 hours
+  40 variables would take about 56 days

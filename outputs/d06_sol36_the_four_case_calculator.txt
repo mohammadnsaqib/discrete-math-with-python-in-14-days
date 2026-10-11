@@ -1,0 +1,19 @@
+   n    k                     case   by the rule   by building   agree
+   3    2         ordered, repeats             9             9    True
+   3    2      ordered, no repeats             6             6    True
+   3    2       unordered, repeats             6             6    True
+   3    2    unordered, no repeats             3             3    True
+   3    3         ordered, repeats            27            27    True
+   3    3      ordered, no repeats             6             6    True
+   3    3       unordered, repeats            10            10    True
+   3    3    unordered, no repeats             1             1    True
+   5    2         ordered, repeats            25            25    True
+   5    2      ordered, no repeats            20            20    True
+   5    2       unordered, repeats            15            15    True
+   5    2    unordered, no repeats            10            10    True
+   5    3         ordered, repeats           125           125    True
+   5    3      ordered, no repeats            60            60    True
+   5    3       unordered, repeats            35            35    True
+   5    3    unordered, no repeats            10            10    True
+
+rows where the rule disagreed with its collection: 0

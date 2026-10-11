@@ -1,0 +1,18 @@
+attendee                        wants to hear
+     Ada          ['graphs', 'logic', 'sets']
+     Ben       ['counting', 'primes', 'sets']
+    Cleo     ['colouring', 'graphs', 'trees']
+     Dan       ['counting', 'logic', 'trees']
+     Eve    ['colouring', 'graphs', 'primes']
+
+talks: 7, clashes: 14
+      talk clashes with                                     they are
+ colouring            3                ['graphs', 'primes', 'trees']
+  counting            4         ['logic', 'primes', 'sets', 'trees']
+    graphs            5 ['colouring', 'logic', 'primes', 'sets', 'trees']
+     logic            4      ['counting', 'graphs', 'sets', 'trees']
+    primes            4  ['colouring', 'counting', 'graphs', 'sets']
+      sets            4    ['counting', 'graphs', 'logic', 'primes']
+     trees            4 ['colouring', 'counting', 'graphs', 'logic']
+
+ways to give each talk one of 4 slots, ignoring clashes: 16384

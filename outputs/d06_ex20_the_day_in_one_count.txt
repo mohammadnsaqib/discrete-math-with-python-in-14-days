@@ -1,0 +1,11 @@
+                        collection  by the rule  by building  verdict
+          ordered, repeats allowed          125          125  agree
+               ordered, no repeats           60           60  agree
+             unordered, no repeats           10           10  agree
+        unordered, repeats allowed           35           35  agree
+             arrangements of aabbc           30           30  agree
+              subsets of all sizes           32           32  agree
+
+ordered hands of 5 from 52: 311875200
+unordered hands of 5 from 52: 2598960
+and the ratio is 120, which is 5!.

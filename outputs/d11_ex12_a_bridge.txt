@@ -1,0 +1,9 @@
+                   graph   edges   bridges   NetworkX agrees                        the bridges
+             a ring of 5       5         0              True                                 []
+             a line of 5       4         4              True   [(0, 1), (1, 2), (2, 3), (3, 4)]
+    two triangles joined       7         1              True                           [(2, 3)]
+  a triangle with a tail       4         1              True                           [(2, 3)]
+
+removing the bridge (2, 3) from two joined triangles:
+   pieces before: [[0, 1, 2, 3, 4, 5]]
+   pieces after : [[0, 1, 2], [3, 4, 5]]

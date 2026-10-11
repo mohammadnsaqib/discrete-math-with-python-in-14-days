@@ -1,0 +1,12 @@
+the event: all three dice differ
+                   given    space   probability   as a decimal   moved by
+                 nothing      216           5/9       0.555556   0.000000
+        the first is a 1       36           5/9       0.555556   0.000000
+    the first two differ      180           2/3       0.666667   0.111111
+     the first two match       36             0       0.000000  -0.555556
+           no die is a 6      125         12/25       0.480000  -0.075556
+           the sum is 10       27           2/3       0.666667   0.111111
+            the sum is 3        1             0       0.000000  -0.555556
+
+the unconditional probability is 5/9 = 0.555556
+the largest move is to 0, on 'the first two match' and on 'the sum is 3'.

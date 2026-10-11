@@ -1,0 +1,14 @@
+       every integer from 2 to 59 is prime
+          for all      : False
+          exists not-P : True, witnessed by 4
+          exactly one  : True
+
+     every integer from 2 to 59 is above 1
+          for all      : True
+          exists not-P : False
+          exactly one  : True
+
+   every integer from 2 to 59 is composite
+          for all      : False
+          exists not-P : True, witnessed by 2
+          exactly one  : True

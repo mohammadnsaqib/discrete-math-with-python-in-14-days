@@ -1,0 +1,12 @@
+  vertex   colour             neighbours    their colours
+       a        0        ['b', 'c', 'd']        [1, 2, 1]
+       b        1             ['a', 'c']           [0, 2]
+       c        2        ['a', 'b', 'd']        [0, 1, 1]
+       d        1             ['a', 'c']           [0, 2]
+       e        0                     []               []
+
+a proper colouring: True, colours used: 3
+
+a colouring that is not proper: {'a': 0, 'b': 0, 'c': 1, 'd': 1, 'e': 0}
+   edges with one colour at both ends: [('a', 'b'), ('c', 'd')]
+   proper: False

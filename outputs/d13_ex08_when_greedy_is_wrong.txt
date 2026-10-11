@@ -1,0 +1,9 @@
+the degrees: {'a': 2, 'b': 2, 'c': 2, 'd': 2, 'e': 2, 'f': 2}
+the fewest colours: 2
+
+  a good order: abcdef gives 2 colours
+                {a: 0, b: 0, c: 0, d: 1, e: 1, f: 1}
+   a bad order: adefbc gives 3 colours
+                {a: 0, b: 2, c: 2, d: 1, e: 1, f: 0}
+
+orders of the six vertices: 720, of which 240 are led astray

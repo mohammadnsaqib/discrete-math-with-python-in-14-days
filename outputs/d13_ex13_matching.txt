@@ -1,0 +1,11 @@
+             graph   vertices   edges   largest matching   NetworkX agrees
+       a line of 5          5       4                  2              True
+       a ring of 6          6       6                  3              True
+     complete on 4          4       6                  2              True
+       a star of 5          5       4                  1              True
+   complete 3 by 3          6       9                  3              True
+
+complete 3 by 3: the matching is [('L0', 'R0'), ('L1', 'R1'), ('L2', 'R2')]
+   a matching: True, every vertex used: True
+a star of 5: the matching is [(0, 1)], and every edge uses the centre
+   vertices left out: [2, 3, 4]

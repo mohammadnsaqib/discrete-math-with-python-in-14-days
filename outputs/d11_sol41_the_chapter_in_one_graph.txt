@@ -1,0 +1,28 @@
+                          question               the book   NetworkX agrees
+                          vertices                      8              True
+                             edges                     10              True
+                            pieces                      1              True
+                    degrees add to                     20              True
+                    largest degree                      3              True
+                  an Euler circuit                  False              True
+                   a Hamilton path                   True                 -
+
+the degrees: {'a': 2, 'b': 3, 'c': 3, 'd': 3, 'e': 3, 'f': 2, 'g': 3, 'h': 1}
+the vertices of odd degree: ['b', 'c', 'd', 'e', 'g', 'h'], and there are 6 of them
+the Hamilton path: ['a', 'b', 'c', 'e', 'd', 'f', 'g', 'h']
+
+breadth-first from a : ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+the distances        : {'a': 0, 'b': 1, 'c': 1, 'd': 2, 'e': 2, 'f': 3, 'g': 3, 'h': 4}
+NetworkX agrees      : True
+depth-first from a   : ['a', 'b', 'c', 'e', 'd', 'f', 'g', 'h']
+
+the route from a to h: ['a', 'c', 'e', 'g', 'h']
+its length           : 4
+NetworkX agrees      : True
+
+  length    walks from a to h    from a to a
+       1                    0              0
+       2                    0              2
+       3                    0              2
+       4                    1              8
+       5                    3             16

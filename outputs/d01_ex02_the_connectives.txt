@@ -1,0 +1,5 @@
+     p      q   not p   p and q   p or q   p implies q   p iff q
+ False  False    True     False    False          True      True
+ False   True    True     False     True          True     False
+  True  False   False     False     True         False     False
+  True   True   False      True     True          True      True

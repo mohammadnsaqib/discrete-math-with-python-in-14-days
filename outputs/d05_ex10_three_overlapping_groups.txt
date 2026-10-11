@@ -1,0 +1,10 @@
+               sizes added    103
+         pairwise overlaps     32
+              in all three      3
+
+                        collection  by the rule  by building  verdict
+          stopping after the pairs           71           74  DISAGREE
+            adding the triple back           74           74  agree
+                    by the routine           74           74  agree
+
+the 3 numbers divisible by all three are counted three times by the first

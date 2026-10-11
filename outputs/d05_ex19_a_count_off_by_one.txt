@@ -1,0 +1,10 @@
+                        collection  by the rule  by building  verdict
+   integers 3 to 9, by subtracting            6            7  DISAGREE
+         integers 3 to 9, plus one            7            7  agree
+
+    from       to    hi - lo    built    agree
+       3        9          6        7    False
+       0        0          0        1    False
+       1      100         99      100    False
+      -5        5         10       11    False
+       7        7          0        1    False

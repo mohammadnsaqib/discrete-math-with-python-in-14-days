@@ -1,0 +1,13 @@
+p and not p
+   p = False  -> False
+   p = True   -> False
+   contradiction: True, tautology: False
+
+(p and q) and not p
+   p = False   q = False  -> False
+   p = False   q = True   -> False
+   p = True    q = False  -> False
+   p = True    q = True   -> False
+   contradiction: True, tautology: False
+
+a contradiction is not a mistake. It is a statement, and its table is all False.

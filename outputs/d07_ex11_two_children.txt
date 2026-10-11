@@ -1,0 +1,6 @@
+the four families: ['BB', 'BG', 'GB', 'GG']
+
+                                question   probability           space it is over
+                            P(both boys)           1/4                     ['BB']
+     P(both boys given at least one boy)           1/3         ['BB', 'BG', 'GB']
+   P(both boys given the older is a boy)           1/2               ['BB', 'BG']

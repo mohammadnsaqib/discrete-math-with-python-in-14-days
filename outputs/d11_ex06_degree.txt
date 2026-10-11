@@ -1,0 +1,14 @@
+  vertex   degree             neighbours
+       a        3        ['b', 'c', 'd']
+       b        2             ['a', 'c']
+       c        3        ['a', 'b', 'd']
+       d        2             ['a', 'c']
+       e        0                     []
+
+the degrees add to 10, and there are 5 edges
+
+             graph   vertices   edges   degrees add to   NetworkX agrees
+     complete on 5          5      10               20              True
+       a ring of 6          6       6               12              True
+       a line of 6          6       5               10              True
+     five isolated          5       0                0              True

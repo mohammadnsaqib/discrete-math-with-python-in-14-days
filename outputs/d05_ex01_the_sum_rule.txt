@@ -1,0 +1,5 @@
+                        collection  by the rule  by building  verdict
+            one vowel or one digit           15           15  agree
+      one of three separate groups           18           18  agree
+                         one vowel            5            5  agree
+           one of no groups at all            0            0  agree

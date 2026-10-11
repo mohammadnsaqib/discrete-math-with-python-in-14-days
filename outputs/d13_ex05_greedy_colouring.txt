@@ -1,0 +1,15 @@
+  vertex    neighbours already coloured    colours taken   smallest free
+       a                             []               []               0
+       b                          ['a']              [0]               1
+       c                     ['a', 'b']           [0, 1]               2
+       d                          ['b']              [1]               0
+       e                     ['c', 'd']           [0, 2]               1
+       f                     ['d', 'e']           [0, 1]               2
+
+proper: True, colours used: 3, the fewest: 3
+
+             graph   greedy   NetworkX greedy   the fewest
+     complete on 4        4                 4            4
+       a ring of 5        3                 3            3
+       a line of 6        2                 2            2
+   the graph above        3                 3            3

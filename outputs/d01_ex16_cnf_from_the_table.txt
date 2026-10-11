@@ -1,0 +1,13 @@
+     p      q      r   value   forbids
+ False  False  False   False   (p or q or r)
+ False  False   True    True
+ False   True  False   False   (p or not q or r)
+ False   True   True    True
+  True  False  False   False   (not p or q or r)
+  True  False   True   False   (not p or q or not r)
+  True   True  False   False   (not p or not q or r)
+  True   True   True    True
+
+false rows: 5, so the form has 5 clauses
+conjunctive normal form:
+  (p or q or r) and (p or not q or r) and (not p or q or r) and (not p or q or not r) and (not p or not q or r)

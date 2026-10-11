@@ -1,0 +1,14 @@
+x = 2 mod 3, x = 3 mod 5, x = 2 mod 7
+   the answer is 23 modulo 105
+   check: 23 mod 3 = 2, mod 5 = 3, mod 7 = 2
+   the next few solutions: [23, 128, 233, 338]
+
+                                 congruences     answer    modulus   checks out
+                            1 mod 3, 2 mod 4         10         12         True
+                   2 mod 3, 3 mod 5, 2 mod 7         23        105         True
+                  0 mod 4, 1 mod 9, 2 mod 25        352        900         True
+               5 mod 11, 12 mod 13, 3 mod 17       1754       2431         True
+
+asking for moduli 4 and 6: the moduli 4 and 6 share a factor
+   4 and 6 share a factor of 2, and x = 1 mod 4 with x = 2 mod 6 has no answer:
+   values below 12 satisfying both: []

@@ -1,0 +1,15 @@
+the move table has 5 entries for 6 state-and-symbol pairs
+the missing ones: [('start', 'b')]
+
+      word                         the states   accepted
+        ''                              start      False
+       'a'                       start seen_a      False
+       'b'                            start -      False
+      'ab'                start seen_a ends_b       True
+      'ba'                            start -      False
+     'aab'         start seen_a seen_a ends_b       True
+    'abab'  start seen_a ends_b seen_a ends_b       True
+    'abba'  start seen_a ends_b ends_b seen_a      False
+
+words up to length 8 where the machine disagreed with the rule: 0
+words up to length 4 refused outright: 15, the first few ['b', 'ba', 'bb', 'baa', 'bab']

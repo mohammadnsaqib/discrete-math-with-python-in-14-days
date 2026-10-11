@@ -1,0 +1,11 @@
+  first letter   how many words
+             a               25
+             b               25
+             c               25
+             d               25
+             e               25
+
+                        collection  by the rule  by building  verdict
+           three letters over five          125          125  agree
+
+pairs of groups that share a word: []

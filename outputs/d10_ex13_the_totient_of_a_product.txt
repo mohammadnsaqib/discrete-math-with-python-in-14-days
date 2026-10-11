@@ -1,0 +1,14 @@
+    p     q     p*q   totient   (p-1)(q-1)   agree
+    3     5      15         8            8    True
+    5     7      35        24           24    True
+    7    11      77        60           60    True
+   11    13     143       120          120    True
+   13    17     221       192          192    True
+   61    53    3233      3120         3120    True
+
+modulo 35: 24 values share no factor with it
+   they are      : [1, 2, 3, 4, 6, 8, 9, 11, 12, 13, 16, 17, 18, 19, 22, 23, 24, 26, 27, 29, 31, 32, 33, 34]
+   the others are: [5, 7, 10, 14, 15, 20, 21, 25, 28, 30]
+   the others are the multiples of 5 and of 7, and there are 10 of them
+
+pairs of distinct primes below 40 where the rule fails: 0

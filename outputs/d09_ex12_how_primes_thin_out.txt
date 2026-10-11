@@ -1,0 +1,23 @@
+the primes below 100: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+
+             range   primes in it    share
+           0 to 99             25     0.25
+        100 to 199             21     0.21
+        200 to 299             16     0.16
+        300 to 399             16     0.16
+        400 to 499             17     0.17
+        500 to 599             14     0.14
+        600 to 699             16     0.16
+        700 to 799             14     0.14
+        800 to 899             15     0.15
+        900 to 999             14     0.14
+
+     limit   primes up to it    share
+        10                 4   0.4000
+       100                25   0.2500
+      1000               168   0.1680
+     10000              1229   0.1229
+    100000              9592   0.0959
+
+the largest gap between primes below 1000 is 20, after 887
+pairs two apart below 1000: 35, the last being (881, 883)

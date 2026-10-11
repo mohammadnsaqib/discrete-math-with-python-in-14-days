@@ -1,0 +1,6 @@
+  strings of length 4 over a, b, c : 81
+      of those, the ones with no a : 16
+
+                        collection  by the rule  by building  verdict
+                  at least one 'a'           65           65  agree
+                     no 'a' at all           16           16  agree

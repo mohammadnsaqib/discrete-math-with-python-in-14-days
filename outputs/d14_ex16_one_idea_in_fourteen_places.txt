@@ -1,0 +1,14 @@
+                    collection   how many               the independent choice
+         subsets of a set of 4         16             each member is in or out
+    rows of a 4-variable table         16       each variable is True or False
+    binary strings of length 4         16                 each place is 0 or 1
+          graphs on 4 vertices         64   each possible edge is there or not
+ Boolean functions of 2 inputs         16      each of 4 rows is True or False
+
+   day                 where the same rule appeared
+     1                        rows of a truth table
+     3                       members of a power set
+     5                      the product rule itself
+     6                      the four counting cases
+    11                  graphs on a set of vertices
+    14          columns a Boolean function can have

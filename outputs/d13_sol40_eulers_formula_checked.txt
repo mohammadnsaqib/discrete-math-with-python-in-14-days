@@ -1,0 +1,12 @@
+  vertices   connected planar graphs   formula holds   faces match the walk
+         1                         1               1                      0
+         2                         1               1                      1
+         3                         4               4                      4
+         4                        38              38                     38
+         5                       727             727                    727
+
+                     graph    v    e    f   v - e + f
+               a line of 5    5    4    1           2
+               a ring of 5    5    5    2           2
+             complete on 4    4    6    4           2
+      two triangles joined    6    7    3           2

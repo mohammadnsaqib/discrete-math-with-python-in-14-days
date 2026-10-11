@@ -1,0 +1,16 @@
+                   graph   vertices   edges   the fewest   greedy uses   greedy is best
+             a line of 5          5       4            2             2             True
+             a ring of 4          4       4            2             2             True
+             a ring of 5          5       5            3             3             True
+           complete on 4          4       6            4             4             True
+             a star of 5          5       4            2             2             True
+           five isolated          5       0            1             1             True
+  a triangle with a tail          4       4            3             3             True
+
+   ring size   the fewest colours    odd
+           3                    3   True
+           4                    2  False
+           5                    3   True
+           6                    2  False
+           7                    3   True
+           8                    2  False

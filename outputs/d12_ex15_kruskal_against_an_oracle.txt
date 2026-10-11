@@ -1,0 +1,10 @@
+               graph   edges   tree edges   the book   NetworkX   agree
+        six vertices       9            5         13         13    True
+     a weighted ring       4            3          6          6    True
+     a weighted line       3            3         18         18    True
+   all weights equal       5            3          3          3    True
+      one heavy edge       4            3          3          3    True
+
+the book's tree: [('a', 'c'), ('b', 'c'), ('b', 'd'), ('d', 'e'), ('e', 'f')]
+NetworkX's tree: [('a', 'c'), ('b', 'c'), ('b', 'd'), ('d', 'e'), ('e', 'f')]
+the same edges : True

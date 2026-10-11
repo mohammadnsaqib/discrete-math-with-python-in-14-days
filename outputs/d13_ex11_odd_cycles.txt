@@ -1,0 +1,10 @@
+                     graph   bipartite   shortest odd cycle   agree
+               a ring of 4        True                 None    True
+               a ring of 5       False                    5    True
+               a ring of 6        True                 None    True
+               a ring of 7       False                    7    True
+      two triangles joined       False                    3    True
+  a square with a diagonal       False                    3    True
+
+graphs on 5 vertices tested: 1024
+graphs where bipartite and 'no odd cycle' disagreed: 0

@@ -1,0 +1,17 @@
+pairs from 1..10 that sum to 11: [(1, 10), (2, 9), (3, 8), (4, 7), (5, 6)]
+there are 5 such pairs, so any 6 numbers from 1..10 include one.
+choosing [1, 2, 3, 4, 5, 6] gives the pair [(5, 6)]
+
+five numbers can avoid it: [1, 2, 3, 4, 5] contains 0 of the pairs.
+
+1 to 20 by remainder on division by 6:
+   remainder 0: [6, 12, 18]
+   remainder 1: [1, 7, 13, 19]
+   remainder 2: [2, 8, 14, 20]
+   remainder 3: [3, 9, 15]
+   remainder 4: [4, 10, 16]
+   remainder 5: [5, 11, 17]
+
+twenty numbers into six remainders, so some remainder holds at least 4.
+the fullest here holds 4. The claim gives a floor, never the exact count,
+and reading it as the exact count is the usual mistake.

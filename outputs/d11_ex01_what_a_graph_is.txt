@@ -1,0 +1,16 @@
+vertices: ['a', 'b', 'c', 'd', 'e']
+edges   : [('a', 'b'), ('a', 'c'), ('a', 'd'), ('b', 'c'), ('c', 'd')]
+the graph: Graph(5 vertices, 5 edges)
+
+  vertex             neighbours
+       a        ['b', 'c', 'd']
+       b             ['a', 'c']
+       c        ['a', 'b', 'd']
+       d             ['a', 'c']
+       e                     []
+
+             graph   vertices    edges    a sample edge
+     complete on 5          5       10           (0, 1)
+       a ring of 5          5        5           (0, 1)
+       a line of 5          5        4           (0, 1)
+     five isolated          5        0                -

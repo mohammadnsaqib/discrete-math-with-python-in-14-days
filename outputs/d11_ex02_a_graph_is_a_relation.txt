@@ -1,0 +1,18 @@
+the edges       : [('a', 'b'), ('b', 'c'), ('c', 'd')]
+as a relation   : [('a', 'b'), ('b', 'a'), ('b', 'c'), ('c', 'b'), ('c', 'd'), ('d', 'c')]
+
+        property   holds
+       reflexive   False
+       symmetric    True
+      transitive   False
+
+rebuilt from the relation: [('a', 'b'), ('b', 'c'), ('c', 'd')]
+the same graph: True
+
+  vertices   possible edges    possible graphs
+         1                0                  1
+         2                1                  2
+         3                3                  8
+         4                6                 64
+         5               10               1024
+         6               15              32768

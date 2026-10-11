@@ -1,0 +1,8 @@
+functions of 3 inputs with at least one True row: 255
+the quick rule matched the search on : 243
+the quick rule used more terms on    : 12
+minimised expressions whose column changed: 0
+
+the worst gap was 1 term, on the column (False, False, True, True, False, True, False, True)
+   the quick rule: (b and c) or (not a and b) or (a and c)
+   the search    : (not a and b) or (a and c)

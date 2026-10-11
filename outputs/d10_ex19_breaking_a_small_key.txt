@@ -1,0 +1,10 @@
+the public key alone : (3233, 17)
+factoring the modulus: (53, 61), giving the private exponent 2753
+the real one is 2753, and they match: True
+a message of 2790 encrypts to 1452 and the recovered exponent returns 2790
+
+            primes          modulus   digits   seconds to break
+            61, 53             3233        4           0.000005
+        1009, 1013          1022117        7           0.000060
+      10007, 10009        100160063        9           0.000617
+    100003, 100019      10002200057       11           0.008931

@@ -1,0 +1,14 @@
+       routine     n                recursive                     loop  agree
+      sum to n     0                        0                        0   True
+      sum to n     1                        1                        1   True
+      sum to n     6                       21                       21   True
+      sum to n    20                      210                      210   True
+      sum to n    60                     1830                     1830   True
+     factorial     0                        1                        1   True
+     factorial     1                        1                        1   True
+     factorial     6                      720                      720   True
+     factorial    12                479001600                479001600   True
+     factorial    20      2432902008176640000      2432902008176640000   True
+
+disc counts 0..12 where the two towers routines differ: []
+the moves for 3 discs, from the loop: [(1, 'A', 'C'), (2, 'A', 'B'), (1, 'C', 'B'), (3, 'A', 'C'), (1, 'B', 'A'), (2, 'B', 'C'), (1, 'A', 'C')]

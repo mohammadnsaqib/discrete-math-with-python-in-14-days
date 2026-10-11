@@ -1,0 +1,13 @@
+              quantity       mean       variance   the other route   agree
+               one die        7/2          35/12             35/12    True
+        the sum of two          7           35/6              35/6    True
+     the larger of two     161/36      2555/1296         2555/1296    True
+     1 if the sum is 7        1/6           5/36              5/36    True
+
+the variance of one die is 35/12 and of the sum of two is 35/6
+twice the first is 35/6, and they agree: True
+
+the variance of the larger is 2555/1296 and of the smaller is 2555/1296
+added, that is 2555/648
+the variance of larger plus smaller is 35/6
+they agree: False

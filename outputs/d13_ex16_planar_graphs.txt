@@ -1,0 +1,9 @@
+             graph   vertices   edges    3n - 6   under the bound   planar
+       a line of 6          6       5        12              True     True
+       a ring of 6          6       6        12              True     True
+     complete on 4          4       6         6              True     True
+     complete on 5          5      10         9             False    False
+     complete on 6          6      15        12             False    False
+   complete 2 by 3          5       6         9              True     True
+   complete 3 by 3          6       9        12              True    False
+      a wheel of 5          6      10        12              True     True

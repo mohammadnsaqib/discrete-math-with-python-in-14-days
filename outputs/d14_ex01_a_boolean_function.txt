@@ -1,0 +1,16 @@
+              expression   (False, False)    (False, True)    (True, False)     (True, True)
+                 a and b            False            False            False             True
+    not (not a or not b)            False            False            False             True
+                  a or b            False             True             True             True
+                  a != b            False             True             True            False
+             a and not b            False            False             True            False
+
+                    left                    right   same function
+                 a and b     not (not a or not b)            True
+
+  inputs    rows   possible functions
+       1       2                    4
+       2       4                   16
+       3       8                  256
+       4      16                65536
+       5      32           4294967296

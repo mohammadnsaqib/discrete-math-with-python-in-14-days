@@ -1,0 +1,13 @@
+   n         a(n)     2**n - 1   agree
+   0            0            0    True
+   1            1            1    True
+   5           31           31    True
+  10         1023         1023    True
+  15        32767        32767    True
+  20      1048575      1048575    True
+
+the Fibonacci terms 0 to 10: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+term 30 by iteration: 832040
+
+term 100 by iteration: 354224848179261915075
+that took 99 steps, one addition for each term after the two given.

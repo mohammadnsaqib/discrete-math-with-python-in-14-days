@@ -1,0 +1,22 @@
+       a      b      q      r   q*b + r   0 <= r < b
+      17      5      3      2        17         True
+      17     17      1      0        17         True
+       5     17      0      5         5         True
+       0      7      0      0         0         True
+     -17      5     -4      3       -17         True
+      -3      7     -1      4        -3         True
+     100      7     14      2       100         True
+
+other pairs with a = q*b + r for a = 17 and b = 5:
+   q = 1, r = 12
+   q = 2, r = 7
+   q = 3, r = 2
+   q = 4, r = -3
+   q = 5, r = -8
+only one of them has a remainder in the window 0 to 4.
+
+       a      b   a // b   a % b    the routine   agree
+      17      5        3       2           3, 2    True
+     -17      5       -4       3          -4, 3    True
+      -3      7       -1       4          -1, 4    True
+      99    100        0      99          0, 99    True

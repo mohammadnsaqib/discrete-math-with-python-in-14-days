@@ -1,0 +1,19 @@
+     a      b    m   a - b   m divides it   same remainder   agree
+    17      5   12      12           True             True    True
+    17      5    6      12           True             True    True
+    -3      9   12     -12           True             True    True
+   100      2    7      98           True             True    True
+     0     12   12     -12           True             True    True
+    -7      5   12     -12           True             True    True
+    14     14    5       0           True             True    True
+
+the integers -7 to 14 by their remainder modulo 7:
+   0: [-7, 0, 7, 14]
+   1: [-6, 1, 8]
+   2: [-5, 2, 9]
+   3: [-4, 3, 10]
+   4: [-3, 4, 11]
+   5: [-2, 5, 12]
+   6: [-1, 6, 13]
+
+triples where the two definitions differ: 0

@@ -1,0 +1,6 @@
+the sum of any two odd numbers below 60 is even
+   no counterexample in 900 of the pairs of odd numbers below 60 -- this settles nothing about the rest
+the square of any even number below 100 is divisible by 4
+   no counterexample in 50 of the even numbers below 100 -- this settles nothing about the rest
+n times n+1 is even for every n from 1 to 500
+   no counterexample in 500 of the integers 1 to 500 -- this settles nothing about the rest

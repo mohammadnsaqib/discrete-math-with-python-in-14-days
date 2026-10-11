@@ -1,0 +1,16 @@
+the two primes        : 61 and 53
+their product         : 3233
+the totient           : 3120, which is (61 - 1) * (53 - 1)
+and totient() agrees  : True
+the public exponent   : 17, and gcd(17, 3120) is 1
+the private exponent  : 2753
+check                 : 17 * 2753 = 46801, which is 15 * 3120 + 1
+and mod_inverse agrees: True
+
+     p      q          n    totient      e          d   e*d mod totient
+     3     11         33         20      3          7                 1
+     5     11         55         40      3         27                 1
+    11     13        143        120      7        103                 1
+    17     19        323        288      5        173                 1
+    61     53       3233       3120      7       1783                 1
+   101    103      10403      10200      7       8743                 1

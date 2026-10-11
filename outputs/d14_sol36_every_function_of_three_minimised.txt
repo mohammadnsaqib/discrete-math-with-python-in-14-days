@@ -1,0 +1,15 @@
+functions of three inputs tested       : 256
+minimised columns that did not match   : 0
+functions where this book used fewer   : 0
+functions where SymPy used fewer terms : 0
+
+   terms    functions
+       0            1
+       1           27
+       2          130
+       3           88
+       4           10
+
+the column needing the most terms: 10010110
+   the smallest found: (not a and not b and not c) or (not a and b and c) or (a and not b and c) or (a and b and not c)
+   SymPy's answer    : (a & b & ~c) | (a & c & ~b) | (b & c & ~a) | (~a & ~b & ~c)

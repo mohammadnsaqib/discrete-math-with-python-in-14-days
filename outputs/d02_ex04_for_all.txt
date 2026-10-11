@@ -1,0 +1,5 @@
+  True  every integer 2 to 20 has a prime factor
+ False  every integer 2 to 20 is prime
+        first member where it fails: 4
+  True  every square below 100 is non-negative
+  True  every integer 1 to 30 that ends in 5 is divisible by 5

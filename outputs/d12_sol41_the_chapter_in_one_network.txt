@@ -1,0 +1,19 @@
+7 vertices, 10 edges, 96 spanning trees
+         route to the tree   edges   a tree   weight
+               a traversal       6     True       29
+                   Kruskal       6     True       24
+                      Prim       6     True       24
+                  NetworkX       6        -       24
+       the cheapest of all       -        -       24
+        the dearest of all       -        -       43
+Kruskal and Prim give the same tree: True
+
+   to     cheapest    cost   fewest steps   its cost
+    a            a       0              a          0
+    b           ab       2             ab          2
+    c           ac       6             ac          6
+    d          abd       7            abd          7
+    e          abe      10            abe         10
+    f          acf      10            acf         10
+    g         abeg      14           abeg         14
+costs that disagreed with NetworkX: 0

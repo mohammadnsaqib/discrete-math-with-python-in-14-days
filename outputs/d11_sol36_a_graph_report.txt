@@ -1,0 +1,11 @@
+             graph   vertices   edges   pieces   degrees add   largest   the book   NetworkX   checks
+     complete on 5          5      10        1            20         4       True       True     True
+       a ring of 6          6       6        1            12         2       True       True     True
+       a line of 6          6       5        1            10         2      False      False     True
+     five isolated          5       0        5             0         0       True      False     True
+     two triangles          6       6        2            12         2      False      False     True
+
+graphs on 5 vertices tested       : 1024
+structural checks failed on       : 0
+graphs where the two Euler answers differ: 26
+of those, graphs with an isolated vertex : 26

@@ -1,0 +1,19 @@
+                   graph   vertices   edges   Euler circuit   Hamilton path
+             a ring of 6          6       6            True            True
+             a line of 6          6       5           False            True
+           complete on 5          5      10            True            True
+             a star of 5          5       4           False           False
+    two triangles joined          6       7           False            True
+
+             a ring of 6: [0, 1, 2, 3, 4, 5]
+             a line of 6: [0, 1, 2, 3, 4, 5]
+           complete on 5: [0, 1, 2, 3, 4]
+             a star of 5: None
+    two triangles joined: [0, 1, 2, 3, 4, 5]
+
+  star size    orders to try   a path exists      seconds
+          5              120           False     0.000104
+          6              720           False     0.000547
+          7             5040           False     0.003776
+          8            40320           False     0.033049
+          9           362880           False     0.295442

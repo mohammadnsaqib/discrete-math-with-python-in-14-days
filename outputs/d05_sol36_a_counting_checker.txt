@@ -1,0 +1,22 @@
+                        collection  by the rule  by building  verdict
+ strings of length n over 3, n = 0            1            1  agree
+ strings of length n over 3, n = 1            3            3  agree
+ strings of length n over 3, n = 2            9            9  agree
+ strings of length n over 3, n = 3           27           27  agree
+ strings of length n over 3, n = 4           81           81  agree
+ strings of length n over 3, n = 5          243          243  agree
+       orderings of n items, n = 0            1            1  agree
+       orderings of n items, n = 1            1            1  agree
+       orderings of n items, n = 2            2            2  agree
+       orderings of n items, n = 3            6            6  agree
+       orderings of n items, n = 4           24           24  agree
+       orderings of n items, n = 5          120          120  agree
+       orderings of n items, n = 6          720          720  agree
+    two-member subsets of n, n = 2            1            1  agree
+    two-member subsets of n, n = 3            3            3  agree
+    two-member subsets of n, n = 4            6            6  agree
+    two-member subsets of n, n = 5           10           10  agree
+    two-member subsets of n, n = 6           15           15  agree
+    two-member subsets of n, n = 7           21           21  agree
+
+every formula agreed with its collection at every size: True

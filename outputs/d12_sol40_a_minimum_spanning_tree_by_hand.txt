@@ -1,0 +1,9 @@
+  vertices   edges   spanning trees   brute force   Kruskal   agree   brute, seconds   Kruskal, seconds
+         4       6               16             9         9    True         0.000247           0.000012
+         5      10              125             8         8    True         0.002751           0.000018
+         6      15             1296             9         9    True         0.046326           0.000030
+         7      21            16807            12        12    True         0.861118           0.000039
+
+on 6 vertices the cheapest tree costs 9: ae bc bf cd de
+Kruskal gives ae bc bf cd de
+Prim gives    ae bc bf cd de

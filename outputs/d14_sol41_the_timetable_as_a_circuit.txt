@@ -1,0 +1,16 @@
+talks: 7   clashes: 14   slots needed: 4
+the rule for one clashing pair is True on 12 of the 16 rows
+   smallest sum of products: (not p0 and q0) or (p0 and not q0) or (not p1 and q1) or (p1 and not q1)
+   gates: 4 not, 4 and, 1 or, in 3 layers
+   the circuit has the same column as the rule: True
+   14 copies and one and-gate to join them: 75 gates
+
+the circuit accepts the greedy timetable: True
+Day 13 also calls it valid              : True
+
+   slots    timetables counted one by one    from the polynomial
+       1                                0                      0
+       2                                0                      0
+       3                                0                      0
+       4                              144                    144
+       5                             2280                   2280

@@ -1,0 +1,14 @@
+the graph has 8 edges: [('a', 'b'), ('a', 'c'), ('b', 'c'), ('b', 'd'), ('c', 'e'), ('d', 'e'), ('d', 'f'), ('e', 'f')]
+depth-first tree  : [('a', 'b'), ('b', 'c'), ('c', 'e'), ('d', 'e'), ('d', 'f')]
+breadth-first tree: [('a', 'b'), ('a', 'c'), ('b', 'd'), ('c', 'e'), ('d', 'f')]
+edges in each: 5 and 5, the same tree: False
+edges in both: [('a', 'b'), ('c', 'e'), ('d', 'f')]
+edges the depth-first search left out: [('a', 'c'), ('b', 'd'), ('e', 'f')]
+
+  start                         depth-first tree
+      a [('a', 'b'), ('b', 'c'), ('c', 'e'), ('d', 'e'), ('d', 'f')]
+      b [('a', 'b'), ('a', 'c'), ('c', 'e'), ('d', 'e'), ('d', 'f')]
+      c [('a', 'b'), ('a', 'c'), ('b', 'd'), ('d', 'e'), ('e', 'f')]
+      d [('a', 'b'), ('a', 'c'), ('b', 'd'), ('c', 'e'), ('e', 'f')]
+      e [('a', 'b'), ('a', 'c'), ('b', 'd'), ('c', 'e'), ('d', 'f')]
+      f [('a', 'b'), ('a', 'c'), ('b', 'd'), ('c', 'e'), ('d', 'f')]

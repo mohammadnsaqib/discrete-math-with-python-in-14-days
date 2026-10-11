@@ -1,0 +1,13 @@
+                   graph   vertices   edges   faces   v - e + f   faces by walking   agree
+             a line of 5          5       4       1           2                  1    True
+             a ring of 5          5       5       2           2                  2    True
+           complete on 4          4       6       4           2                  4    True
+            a wheel of 5          6      10       6           2                  6    True
+  a triangle with a tail          4       4       2           2                  2    True
+
+   ring size   vertices   edges   faces
+           3          3       3       2
+           4          4       4       2
+           5          5       5       2
+           6          6       6       2
+           7          7       7       2

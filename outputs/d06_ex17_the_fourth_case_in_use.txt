@@ -1,0 +1,13 @@
+  from   choose   ordered,   ordered,   unordered,   unordered,
+                   repeats no repeats   no repeats      repeats
+     3        2          9          6            3            6
+     3        3         27          6            1           10
+     3        4         81          0            0           15
+     5        2         25         20           10           15
+     5        3        125         60           10           35
+     5        4        625        120            5           70
+     8        2         64         56           28           36
+     8        3        512        336           56          120
+     8        4       4096       1680           70          330
+
+formula and collection compared at 100 places; disagreements: 0

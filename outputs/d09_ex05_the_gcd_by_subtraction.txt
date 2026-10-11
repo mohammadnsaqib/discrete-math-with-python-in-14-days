@@ -1,0 +1,15 @@
+       a        b    gcd    steps   library gcd   agree
+      48       18      6        5             6    True
+     270      192      6       11             6    True
+      17        5      1        7             1    True
+     100      100    100        1           100    True
+    1071      462     21       12            21    True
+ 1000000        2      2   500000             2    True
+
+every pair the subtraction form passes through, from (48, 18):
+   ( 48,  18)
+   ( 30,  18)
+   ( 12,  18)
+   ( 12,   6)
+   (  6,   6)
+   (  6,   0)  and the answer is 6

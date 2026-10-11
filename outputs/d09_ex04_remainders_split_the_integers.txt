@@ -1,0 +1,15 @@
+the integers -7 to 17, sorted by their remainder on division by 5:
+   remainder 0: [-5, 0, 5, 10, 15]
+   remainder 1: [-4, 1, 6, 11, 16]
+   remainder 2: [-3, 2, 7, 12, 17]
+   remainder 3: [-7, -2, 3, 8, 13]
+   remainder 4: [-6, -1, 4, 9, 14]
+
+groups: 5, group sizes present: [5]
+every integer appears once: True
+
+   b   groups        how many of 1 to 30 in each
+   2        2                           [15, 15]
+   3        3                       [10, 10, 10]
+   5        5                    [6, 6, 6, 6, 6]
+   7        7              [4, 5, 5, 4, 4, 4, 4]

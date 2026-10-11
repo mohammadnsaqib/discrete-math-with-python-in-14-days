@@ -1,0 +1,19 @@
+word 'aab'
+   arrangements produced : 6
+   distinct words        : 3
+   group sizes present   : [2]
+   the divisor used      : 2
+   the rule gives        : 3
+
+word 'banana'
+   arrangements produced : 720
+   distinct words        : 60
+   group sizes present   : [12]
+   the divisor used      : 12
+   the rule gives        : 60
+
+the distinct arrangements of 'aab', grouped by first letter:
+   starting a: ['aab', 'aba']
+   starting b: ['baa']
+   group sizes: [1, 2]
+   groups: 2, words: 3, words over groups: 1.5000

@@ -1,0 +1,7 @@
+             claim                     fails at  base belongs at  step from there
+      2**n >= n**2                          [3]                4            holds
+       2**n > n**3   [2, 3, 4, 5, 6] and 3 more               10            holds
+        n! >= 2**n                    [1, 2, 3]                4            holds
+        n! >= n**3                 [2, 3, 4, 5]                6            holds
+   n**2 >= 2*n + 3                       [1, 2]                3            holds
+     2**n >= n + 1                           []                1            holds

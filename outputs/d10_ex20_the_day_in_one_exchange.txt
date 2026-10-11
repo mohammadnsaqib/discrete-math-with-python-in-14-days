@@ -1,0 +1,13 @@
+two primes: 1000003 and 1000033, both prime: True
+the modulus  : 1000036000099, which has 13 digits
+the totient  : 1000034000064, and totient() agrees: True
+the exponents: 65537 and 983264276609, with e * d modulo the totient 1
+
+     message          encrypted    decrypted   returned
+    20260910       311266299465     20260910       True
+messages tried: [1, 2, 999999, 12345678, 1000036000098], and those that did not come back: []
+
+                        step      seconds
+                  encrypting     0.000005
+                  decrypting     0.000017
+       factoring the modulus     0.095042

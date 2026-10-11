@@ -1,0 +1,7 @@
+                      function   injective   surjective   bijective
+[(1, 'a'), (2, 'b'), (3, 'c')]        True         True        True
+[(1, 'a'), (2, 'a'), (3, 'a')]       False        False       False
+
+the same three pairs, into a codomain of four:
+   injective  : True
+   surjective : False

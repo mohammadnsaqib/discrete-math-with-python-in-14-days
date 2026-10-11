@@ -1,0 +1,10 @@
+                      tree  leaves  operators   value
+             (2 + (3 + 4))       3          2       9
+             (2 * (3 + 4))       3          2      14
+             (2 + (3 * 4))       3          2      14
+             (2 * (3 * 4))       3          2      24
+             ((2 + 3) + 4)       3          2       9
+             ((2 + 3) * 4)       3          2      20
+
+trees built from 1 to 5 leaves: 275
+trees where leaves did not equal operators plus one: 0

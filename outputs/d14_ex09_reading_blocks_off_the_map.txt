@@ -1,0 +1,25 @@
+at least two of three:
+            00    01    11    10
+       0     .     .     1     .
+       1     .     1     1     1
+   the smallest expression: (b and c) or (a and c) or (a and b)
+      - 1 1 covers rows [3, 7]
+      1 - 1 covers rows [5, 7]
+      1 1 - covers rows [6, 7]
+
+a alone decides:
+            00    01    11    10
+       0     .     .     .     .
+       1     1     1     1     1
+   the smallest expression: (a)
+      1 - - covers rows [4, 5, 6, 7]
+
+an odd number:
+            00    01    11    10
+       0     .     1     .     1
+       1     1     .     1     .
+   the smallest expression: (not a and not b and c) or (not a and b and not c) or (a and not b and not c) or (a and b and c)
+      0 0 1 covers rows [1]
+      0 1 0 covers rows [2]
+      1 0 0 covers rows [4]
+      1 1 1 covers rows [7]

@@ -1,0 +1,5 @@
+claim          : if n squared is even then n is even
+   tested on   : 200 members, failures 0
+
+contrapositive : if n is odd then n squared is odd
+   tested on   : 200 members, failures 0

@@ -1,0 +1,14 @@
+7 vertices, 9 edges, the degrees {'a': 2, 'b': 3, 'c': 3, 'd': 3, 'e': 3, 'f': 2, 'g': 2}
+
+                      question     the book     NetworkX   agree
+                greedy colours            3            3    True
+            the fewest colours            3            -       -
+       the colouring is proper         True            -       -
+                     bipartite        False        False    True
+              largest matching            3            3    True
+               greedy matching            3            -       -
+                        planar            -         True       -
+
+the greedy colouring: {'a': 0, 'b': 1, 'c': 2, 'd': 0, 'e': 1, 'f': 1, 'g': 0}
+the largest matching: [('a', 'b'), ('c', 'e'), ('d', 'f')]
+faces 4, v - e + f = 2, Euler holds: True, and 9 edges is within 15

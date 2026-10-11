@@ -1,0 +1,10 @@
+             graph   bipartite   NetworkX agrees   the fewest colours   group sizes
+       a line of 5        True              True                    2          3, 2
+       a ring of 4        True              True                    2          2, 2
+       a ring of 5       False              True                    3             -
+     complete on 3       False              True                    3             -
+       a star of 6        True              True                    2          1, 5
+   complete 3 by 3        True              True                    2          3, 3
+      a crown of 6        True              True                    2          3, 3
+
+graphs where bipartite and two-colourable disagree: []

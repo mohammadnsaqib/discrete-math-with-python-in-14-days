@@ -1,0 +1,9 @@
+  nodes    shapes   shortest height   tallest height   the next count from the last   agree
+      1         1                 0                0                              1    True
+      2         2                 1                1                              2    True
+      3         5                 1                2                              5    True
+      4        14                 2                3                             14    True
+      5        42                 2                4                             42    True
+      6       132                 2                5                            132    True
+      7       429                 2                6                            429    True
+      8      1430                 3                7                           1430    True

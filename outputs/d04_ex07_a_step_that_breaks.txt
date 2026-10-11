@@ -1,0 +1,20 @@
+claim: no positive integer is a multiple of 7
+   base at 1 holds       : True
+   step failures in 1..29: [6, 13, 20, 27]
+
+   n   claim   step to n+1
+   1    True         holds
+   2    True         holds
+   3    True         holds
+   4    True         holds
+   5    True         holds
+   6    True        BREAKS
+   7   False             -
+   8    True         holds
+   9    True         holds
+  10    True         holds
+  11    True         holds
+  12    True         holds
+  13    True        BREAKS
+  14   False             -
+  15    True         holds

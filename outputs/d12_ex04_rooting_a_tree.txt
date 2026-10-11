@@ -1,0 +1,18 @@
+the tree: [('a', 'b'), ('a', 'c'), ('b', 'd'), ('b', 'e'), ('c', 'f'), ('f', 'g')], a tree: True
+  vertex   parent   depth           children   a leaf
+       a     None       0         ['b', 'c']    False
+       b        a       1         ['d', 'e']    False
+       c        a       1              ['f']    False
+       d        b       2                 []     True
+       e        b       2                 []     True
+       f        c       2              ['g']    False
+       g        f       3                 []     True
+
+    root   height   leaves
+       a        3        3
+       b        4        3
+       c        3        3
+       d        5        2
+       e        5        2
+       f        4        3
+       g        5        2

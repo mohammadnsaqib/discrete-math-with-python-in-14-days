@@ -1,0 +1,13 @@
+how common the condition is       : 1/1000 = 0.001000
+the test says yes when present    : 99/100 = 0.990000
+the test says yes when absent     : 1/100 = 0.010000
+
+in a population of 100000:
+   have the condition            : 100
+   of those, the test says yes   : 99
+   do not have it                : 99900
+   of those, the test says yes   : 999
+   all who hear yes              : 1098
+
+P(has it given the test says yes) = 11/122 = 0.090164
+the counts agree: True

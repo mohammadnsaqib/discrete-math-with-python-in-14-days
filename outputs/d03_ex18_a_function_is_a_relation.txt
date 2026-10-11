@@ -1,0 +1,6 @@
+                     pairs   a function on {1,2,3}?
+       f: every input once                     True
+       an input used twice                    False
+          an input missing                    False
+            nothing at all                    False
+   all three to one output                     True

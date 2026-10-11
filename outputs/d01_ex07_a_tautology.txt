@@ -1,0 +1,11 @@
+p or not p
+   p = False  -> True
+   p = True   -> True
+   tautology: True
+
+((p implies q) and p) implies q
+   p = False  q = False  -> True
+   p = False  q = True   -> True
+   p = True   q = False  -> True
+   p = True   q = True   -> True
+   tautology: True

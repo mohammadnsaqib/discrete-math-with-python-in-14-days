@@ -1,0 +1,10 @@
+    divisible by 2     50
+    divisible by 3     33
+    divisible by 6     16
+
+                        collection  by the rule  by building  verdict
+       by 2 or by 3, added naively           83           67  DISAGREE
+by 2 or by 3, with the overlap out           67           67  agree
+
+the overlap is exactly the multiples of 6, and there are 16 of them.
+50 plus 33 minus 16 is 67, which the enumeration confirms.

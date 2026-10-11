@@ -1,0 +1,29 @@
+      edge   weight
+('a', 'b')        4
+('a', 'c')        1
+('b', 'c')        2
+('b', 'd')        5
+('c', 'd')        8
+('c', 'e')       10
+('d', 'e')        2
+('d', 'f')        6
+('e', 'f')        3
+
+spanning trees: 55
+the cheapest costs 13: [('a', 'c'), ('b', 'c'), ('b', 'd'), ('d', 'e'), ('e', 'f')]
+the dearest costs 33: [('a', 'b'), ('b', 'd'), ('c', 'd'), ('c', 'e'), ('d', 'f')]
+
+  total weight   trees with it
+            13               1
+            15               1
+            16               3
+            17               1
+            18               3
+            19               5
+            20               3
+            21               5
+           ...       55 in all
+
+Every spanning tree has the same number of edges and they do not cost the same.
+The cheapest is 13 and the dearest is 33, over 55 trees.
+Finding the cheapest one without listing the rest is what Kruskal and Prim do.

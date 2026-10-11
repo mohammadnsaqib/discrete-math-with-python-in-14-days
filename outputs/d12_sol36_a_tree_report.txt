@@ -1,0 +1,9 @@
+             graph   one piece   no cycle   edges fit   a tree   checks
+       a line of 5        True       True        True     True     True
+       a ring of 5        True      False       False    False     True
+       a star of 5        True       True        True     True     True
+     complete on 4        True      False       False    False     True
+         two lines       False       True       False    False     True
+
+graphs on 5 vertices tested: 1024, checks failed on: 0
+graphs with the right edge count that are NOT trees: 85

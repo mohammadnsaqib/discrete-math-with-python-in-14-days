@@ -1,0 +1,15 @@
+       n   prime            factorisation  divisors   their sum  all checks pass
+       2    True                        2         2           3             True
+      12   False                 2**2 * 3         6          28             True
+      28   False                 2**2 * 7         6          56             True
+      97    True                       97         2          98             True
+     360   False          2**3 * 3**2 * 5        24        1170             True
+     496   False                2**4 * 31        10         992             True
+    1024   False                    2**10        11        2047             True
+    5040   False      2**4 * 3**2 * 5 * 7        60       19344             True
+    8128   False               2**6 * 127        14       16256             True
+  999983    True                   999983         2      999984             True
+
+integers from 2 to 4999 where any check failed: 0
+
+integers below 10000 whose divisors add to twice themselves: [6, 28, 496, 8128]

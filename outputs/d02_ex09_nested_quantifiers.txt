@@ -1,0 +1,12 @@
+domain: the integers 1 to 10
+
+  for all x, there exists y with x < y : False
+  there exists y, for all x with x < y : False
+
+the first says every number has something above it, which fails at 10.
+the second says one number is above everything, which fails because that
+number would have to be above itself.
+
+domain: the integers 1 to 4, with < replaced by <=
+  for all x, there exists y with x <= y : True
+  there exists y, for all x with x <= y : True, and that y is 4

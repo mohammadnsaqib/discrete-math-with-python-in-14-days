@@ -1,0 +1,5 @@
+                      range   members checked   counterexamples   settled?
+  the even numbers 4 to 100                49                 0         no
+  the even numbers 4 to 500               249                 0         no
+ the even numbers 4 to 2000               999                 0         no
+ the even numbers 4 to 8000              3999                 0         no

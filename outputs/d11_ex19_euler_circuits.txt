@@ -1,0 +1,12 @@
+                   graph   edges   odd degrees   one piece   a circuit   NetworkX agrees
+             a ring of 5       5             0        True        True              True
+             a line of 5       4             2        True       False              True
+           complete on 4       6             4        True       False              True
+           complete on 5      10             0        True        True              True
+    two triangles joined       7             2        True       False              True
+                a bowtie       6             0        True        True              True
+
+a circuit on the bowtie: [0, 1, 2, 3, 4, 2, 0]
+   edges used: 6, edges in the graph: 6
+   every edge once: True
+   it closes: True

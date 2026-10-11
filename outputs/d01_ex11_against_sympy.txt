@@ -1,0 +1,5 @@
+           first                           second   by table   by sympy   agree
+   not (p and q)               (not p) or (not q)       True       True    True
+     p implies q                     (not p) or q       True       True    True
+     p implies q                      q implies p      False      False    True
+         p iff q   (p and q) or (not p and not q)       True       True    True

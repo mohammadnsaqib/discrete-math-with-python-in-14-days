@@ -1,0 +1,14 @@
+             graph   vertices   the fewest    seconds   greedy, seconds
+       a ring of 3          3            3   0.000055        0.00000195
+       a ring of 4          4            2   0.000031        0.00000241
+       a ring of 5          5            3   0.000320        0.00000297
+       a ring of 6          6            2   0.000131        0.00000378
+       a ring of 7          7            3   0.002521        0.00000416
+       a ring of 8          8            2   0.000595        0.00000471
+       a ring of 9          9            3   0.023738        0.00000655
+
+             graph   vertices   the fewest    seconds
+     complete on 3          3            3   0.000068
+     complete on 4          4            4   0.000873
+     complete on 5          5            5   0.016316
+     complete on 6          6            6   0.272134

@@ -1,0 +1,9 @@
+                 event   outcomes    of   probability   as a decimal
+          the sum is 7          6    36           1/6       0.166667
+       both dice match          6    36           1/6       0.166667
+      at least one six         11    36         11/36       0.305556
+       the sum is even         18    36           1/2       0.500000
+   the first is larger         15    36          5/12       0.416667
+         the sum is 13          0    36             0       0.000000
+
+the outcomes summing to 7: [(1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1)]

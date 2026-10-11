@@ -1,0 +1,8 @@
+              case   workers   jobs   largest matching   all workers placed
+     everyone fits         3      3                  3                 True
+    a shared skill         3      2                  2                False
+      a full board         4      4                  4                 True
+
+a shared skill: the matching is [('Ada', 'wiring'), ('Ben', 'welding')]
+   left unplaced: ['Cleo']
+   ['Ben', 'Cleo'] between them can do only ['welding'], which is 1 job for 2 workers

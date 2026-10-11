@@ -1,0 +1,19 @@
+the sample space holds 216 outcomes
+
+                              quantity        value   as a decimal
+                    P(all three match)         1/36       0.027778
+                   P(at least one six)       91/216       0.421296
+                  P(sum is 14 or more)       35/216       0.162037
+       P(all match | at least one six)         1/91       0.010989
+       P(at least one six | all match)          1/6       0.166667
+P(sum is 14 or more | at least one six)        31/91       0.340659
+                      the expected sum         21/2      10.500000
+               the variance of the sum         35/4       8.750000
+
+are 'all match' and 'at least one six' independent? False
+are 'the first is even' and 'the third is even' independent? True
+
+                 event        exact   100000 trials      error
+       all three match     0.027778        0.028090   0.000312
+      at least one six     0.421296        0.423460   0.002164
+     sum is 14 or more     0.162037        0.162440   0.000403

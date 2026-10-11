@@ -1,0 +1,16 @@
+             graph   name order   busiest first   the fewest
+       a ring of 5            3               3            3
+     complete on 4            4               4            4
+      a crown of 6            2               2            2
+      a wheel of 5            4               4            4
+       a star of 6            2               2            2
+
+five hand-picked graphs say nothing about a rule. Every graph on five vertices does.
+
+                  rule   graphs above the truth    share
+vertices in name order                       90   0.0879
+         busiest first                        0   0.0000
+
+graphs tested                        : 1024
+graphs where both rules were above   : 0
+graphs where neither rule was above  : 934

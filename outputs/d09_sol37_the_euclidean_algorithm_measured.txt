@@ -1,0 +1,12 @@
+pairs tested: 3600
+pairs where any of the three answers differed: 0
+
+                form    worst      mean      total
+         subtraction       60     11.76      42324
+           remainder        9      3.57      12858
+
+the worst pair for subtraction is (1, 60), at 60 steps
+   the remainder form takes 2
+
+the worst pair for the remainder form is (34, 55), at 9 steps
+   its gcd is 1

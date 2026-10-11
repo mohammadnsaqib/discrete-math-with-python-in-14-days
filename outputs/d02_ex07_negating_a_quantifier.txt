@@ -1,0 +1,11 @@
+claim   : every integer from 2 to 29 is prime
+holds   : False
+not(for all) is the same as (there exists a failure)
+   not(for all P) = True
+   exists not-P   = True, witnessed by 4
+
+claim   : some integer from 2 to 29 is above 100
+holds   : False
+not(exists) is the same as (for all, not)
+   not(exists P) = True
+   for all not-P = True

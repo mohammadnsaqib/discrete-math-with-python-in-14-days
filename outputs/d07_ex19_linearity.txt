@@ -1,0 +1,17 @@
+                          quantity   expectation
+                     the first die           7/2
+                    the second die           7/2
+                         their sum             7
+        the two expectations added             7
+
+                    the larger die        161/36
+                   the smaller die         91/36
+               larger plus smaller             7
+        the two expectations added             7
+
+is 'the larger is at least 5' independent of 'the smaller is at least 3'? False
+
+  dice   expected sum   dice times 7/2   agree
+     1            7/2              7/2    True
+     2              7                7    True
+     3           21/2             21/2    True

@@ -1,0 +1,14 @@
+  exponent    by squaring    one at a time   agree
+        10         474403           474403    True
+      1000         281952           281952    True
+    100000         960130           960130    True
+
+  exponent   squaring, seconds   one at a time, seconds   times faster
+     10000          0.00000317                 0.000774          244.3
+    100000          0.00000391                 0.007896         2020.7
+   1000000          0.00000430                 0.073190        17038.8
+
+              exponent    bits   squarings needed
+                 10**6      20                 19
+                10**12      40                 39
+        a 2048-bit key    2048               2047

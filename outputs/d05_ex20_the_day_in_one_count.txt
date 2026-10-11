@@ -1,0 +1,8 @@
+                        collection  by the rule  by building  verdict
+           all strings of length 5         1024         1024  agree
+              using at least one a          781          781  agree
+       using every one of the four          240          240  agree
+
+a string of length 5 over 4 letters repeats some letter at least 2 times.
+
+strings of length 30 over the same four letters: 1152921504606846976

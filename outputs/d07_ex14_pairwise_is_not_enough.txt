@@ -1,0 +1,8 @@
+                 A                  B   P(A)P(B)   P(A and B)   independent
+    first is heads    second is heads        1/4          1/4          True
+    first is heads      the two match        1/4          1/4          True
+   second is heads      the two match        1/4          1/4          True
+
+P(all three) is 1/4
+P(A)P(B)P(C) is 1/8
+they agree: False

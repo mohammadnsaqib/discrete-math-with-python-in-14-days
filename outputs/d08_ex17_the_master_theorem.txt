@@ -1,0 +1,21 @@
+                recurrence  subproblems  split**power   case             growth
+         T(n) = T(n/2) + 1            1             1      2         n**0 log n
+       T(n) = 2*T(n/2) + n            2             2      2         n**1 log n
+       T(n) = 3*T(n/2) + n            3             2      1          n**1.5850
+       T(n) = 4*T(n/2) + n            4             2      1          n**2.0000
+    T(n) = 2*T(n/2) + n**2            2             4      3               n**2
+    T(n) = 8*T(n/2) + n**2            8             4      1          n**3.0000
+    T(n) = 7*T(n/2) + n**2            7             4      1          n**2.8074
+
+the comparison is between the number of subproblems and the factor raised to the
+power of the extra work. More subproblems than that and the leaves dominate; fewer
+and the top does; equal and every level costs the same, which produces the log.
+
+                recurrence        T(1024)       T(512)    ratio  measured exponent
+         T(n) = T(n/2) + 1             11           10   1.1000             0.1375
+       T(n) = 2*T(n/2) + n          11264         5120   2.2000             1.1375
+       T(n) = 3*T(n/2) + n         175099        58025   3.0176             1.5934
+       T(n) = 4*T(n/2) + n        2096128       523776   4.0020             2.0007
+    T(n) = 2*T(n/2) + n**2        2096128       523776   4.0020             2.0007
+    T(n) = 8*T(n/2) + n**2     2146435072    268173312   8.0039             3.0007
+    T(n) = 7*T(n/2) + n**2      657710813     93808891   7.0112             2.8097

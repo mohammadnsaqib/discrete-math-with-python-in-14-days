@@ -1,0 +1,17 @@
+             inside so far    cheapest edge leaving   weight
+                     ['a']               ('a', 'c')        1
+                ['a', 'c']               ('b', 'c')        2
+           ['a', 'b', 'c']               ('b', 'd')        5
+      ['a', 'b', 'c', 'd']               ('d', 'e')        2
+ ['a', 'b', 'c', 'd', 'e']               ('e', 'f')        3
+
+the tree: [('a', 'c'), ('b', 'c'), ('b', 'd'), ('d', 'e'), ('e', 'f')], a tree: True, total weight 13
+the cheapest possible: 13, and they agree: True
+
+   starting vertex                   the tree   weight
+                 a             ac bc bd de ef       13
+                 b             ac bc bd de ef       13
+                 c             ac bc bd de ef       13
+                 d             ac bc bd de ef       13
+                 e             ac bc bd de ef       13
+                 f             ac bc bd de ef       13

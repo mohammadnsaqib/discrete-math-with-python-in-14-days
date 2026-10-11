@@ -1,0 +1,9 @@
+                   graph   vertices   edges   tree edges   a tree   NetworkX agrees
+             a ring of 6          6       6            5     True              True
+           complete on 5          5      10            4     True              True
+             a line of 6          6       5            5     True              True
+    two triangles joined          6       7            5     True              True
+
+the graph's edges: [(0, 1), (0, 2), (1, 2), (2, 3), (3, 4), (3, 5), (4, 5)]
+the tree's edges : [(0, 1), (0, 2), (2, 3), (3, 4), (3, 5)]
+the edges dropped: [(1, 2), (4, 5)]

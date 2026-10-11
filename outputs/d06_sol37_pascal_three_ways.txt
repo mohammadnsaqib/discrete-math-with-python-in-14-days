@@ -1,0 +1,16 @@
+   n  product = sum  sum = library  library = built list   row total
+   0           True           True                  True           1
+   1           True           True                  True           2
+   2           True           True                  True           4
+   3           True           True                  True           8
+   4           True           True                  True          16
+   5           True           True                  True          32
+   6           True           True                  True          64
+   7           True           True                  True         128
+   8           True           True                  True         256
+   9           True           True                  True         512
+  10           True           True             not built        1024
+  11           True           True             not built        2048
+
+row 12: [1, 12, 66, 220, 495, 792, 924, 792, 495, 220, 66, 12, 1]
+and it adds to 4096, which is 2**12 = 4096

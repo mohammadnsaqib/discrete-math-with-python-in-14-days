@@ -1,0 +1,11 @@
+f then g
+   first  : injective True, surjective True
+   second : injective False, surjective False
+   result : [(1, 'x'), (2, 'x'), (3, 'y')]
+            injective False, surjective False
+
+f then h
+   first  : injective True, surjective True
+   second : injective True, surjective True
+   result : [(1, 'x'), (2, 'y'), (3, 'z')]
+            injective True, surjective True

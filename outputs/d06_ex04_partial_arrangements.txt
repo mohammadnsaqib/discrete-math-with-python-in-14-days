@@ -1,0 +1,24 @@
+  from   choose    by the rule    by building    library   agree
+     0        0              1              1          1    True
+     1        0              1              1          1    True
+     1        1              1              1          1    True
+     2        0              1              1          1    True
+     2        1              2              2          2    True
+     2        2              2              2          2    True
+     3        0              1              1          1    True
+     3        1              3              3          3    True
+     3        2              6              6          6    True
+     3        3              6              6          6    True
+     4        0              1              1          1    True
+     4        1              4              4          4    True
+     4        2             12             12         12    True
+     4        3             24             24         24    True
+     4        4             24             24         24    True
+     5        0              1              1          1    True
+     5        1              5              5          5    True
+     5        2             20             20         20    True
+     5        3             60             60         60    True
+     5        4            120            120        120    True
+     5        5            120            120        120    True
+
+choosing 2 from 4 in order: ['ab', 'ac', 'ad', 'ba', 'bc', 'bd', 'ca', 'cb', 'cd', 'da', 'db', 'dc']

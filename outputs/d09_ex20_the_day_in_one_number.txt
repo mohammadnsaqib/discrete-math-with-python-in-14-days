@@ -1,0 +1,21 @@
+                          question                             answer
+         the factorisation of 5040   [(2, 4), (3, 2), (5, 1), (7, 1)]
+                   multiplied back                               5040
+                      SymPy agrees                               True
+                 how many divisors                                 60
+                   from the powers                                 60
+                     is 5040 prime                              False
+                      SymPy agrees                               True
+
+         the factorisation of 2079          [(3, 3), (7, 1), (11, 1)]
+                   gcd(5040, 2079)                                 63
+                the library agrees                               True
+  x and y with 5040x + 2079y = gcd                             -7, 17
+        and that combination gives                                 63
+                   lcm(5040, 2079)                             166320
+                     gcd times lcm                           10478160
+                   5040 times 2079                           10478160
+
+primes below 100: 25, the largest being 97
+primes below 5040: 675
+the prime factors of 5040 are [2, 3, 5, 7], all below 10

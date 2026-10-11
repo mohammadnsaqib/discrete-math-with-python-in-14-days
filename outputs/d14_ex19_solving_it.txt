@@ -1,0 +1,10 @@
+DAY 11. 7 talks, 14 clashes, 1 piece; the degrees add to 28
+DAY 5.  all assignments of 4 slots: 16384
+DAY 13. greedy uses 4 slots, the fewest is 4, and the timetable is valid: True
+   slot 0: ['colouring', 'counting']
+   slot 1: ['graphs']
+   slot 2: ['logic', 'primes']
+   slot 3: ['sets', 'trees']
+DAY 12. a spanning tree of the clash graph: 6 edges, a tree: True
+DAY 13. attendees paired to slots: 4 of 5
+DAY 4.  every attendee's three talks land in three different slots: True

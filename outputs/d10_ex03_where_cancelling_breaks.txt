@@ -1,0 +1,25 @@
+multiplication modulo 5:
+      0   1   2   3   4
+  0   0   0   0   0   0
+  1   0   1   2   3   4
+  2   0   2   4   1   3
+  3   0   3   1   4   2
+  4   0   4   3   2   1
+   non-zero pairs whose product is 0: []
+
+multiplication modulo 6:
+      0   1   2   3   4   5
+  0   0   0   0   0   0   0
+  1   0   1   2   3   4   5
+  2   0   2   4   0   2   4
+  3   0   3   0   3   0   3
+  4   0   4   2   0   4   2
+  5   0   5   4   3   2   1
+   non-zero pairs whose product is 0: [(2, 3), (3, 2), (3, 4), (4, 3)]
+
+   m    a    b    c   a*b mod m   a*c mod m   same product   b = c   cancelling safe
+   6    2    1    4           2           2           True   False             False
+   6    3    1    3           3           3           True   False             False
+   5    2    1    4           2           3          False   False              True
+   5    2    3    3           1           1           True    True              True
+  12    4    2    5           8           8           True   False             False

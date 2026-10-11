@@ -1,0 +1,19 @@
+   items    holes   some hole has at least
+       3        2                        2
+      10        9                        2
+      13       12                        2
+     367      366                        2
+     100        7                       15
+       5        5                        1
+       4        9                        1
+
+the numbers 1 to 8 sorted by their remainder on division by 7:
+   remainder 0: [7]
+   remainder 1: [1, 8]
+   remainder 2: [2]
+   remainder 3: [3]
+   remainder 4: [4]
+   remainder 5: [5]
+   remainder 6: [6]
+
+remainders holding more than one number: [1]

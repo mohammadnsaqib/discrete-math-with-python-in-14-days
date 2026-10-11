@@ -1,0 +1,8 @@
+               A                B   P(A and B)   never together   independent
+    the sum is 7     the sum is 8            0             True         False
+      both match     the sum is 7            0             True         False
+   first is even   second is even          1/4            False          True
+    first is a 1    second is a 1         1/36            False          True
+
+P(sum is 7) is 1/6
+P(sum is 7 given the sum is 8) is 0

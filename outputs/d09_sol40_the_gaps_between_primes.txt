@@ -1,0 +1,19 @@
+     limit    primes   largest gap      after   mean gap   ln(limit)
+       100        26             8         89     3.9600      4.6052
+      1000       169            20        887     5.9940      6.9078
+     10000      1230            36       9551     8.1408      9.2103
+    100000      9593            72      31397    10.4255     11.5129
+   1000000     78498           114     492113    12.7391     13.8155
+
+   gap   how often below a million             first pair
+     2                        8169                 (3, 5)
+     4                        8143                (7, 11)
+     6                       13549               (23, 29)
+     8                        5569               (89, 97)
+    14                        4233             (113, 127)
+    34                         557           (1327, 1361)
+
+pairs two apart below a million: 8169
+the largest of them: (999959, 999961)
+
+the first gap of 100 or more starts after 370261, and is 112

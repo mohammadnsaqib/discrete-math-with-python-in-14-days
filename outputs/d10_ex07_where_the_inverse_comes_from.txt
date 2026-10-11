@@ -1,0 +1,10 @@
+     a      m   gcd       x       y   a*x + m*y   x mod m   a * that mod m
+     3      7     1      -2       1           1         5                1
+     5     12     1       5      -2           1         5                1
+    11     26     1      -7       3           1        19                1
+    17   3120     1    -367       2           1      2753                1
+     4     12     4       1       0           4         -       no inverse
+
+17 * -367 + 3120 * 2 = 1
+so 17 * 2753 is 1 more than a multiple of 3120: 46801 = 15 * 3120 + 1
+and mod_inverse agrees: 2753

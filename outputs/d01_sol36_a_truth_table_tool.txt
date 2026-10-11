@@ -1,0 +1,15 @@
+         p       q  p or q  p and q  (p or q) implies (p and q)
+     False   False   False    False                        True
+     False    True    True    False                       False
+      True   False    True    False                       False
+      True    True    True     True                        True
+
+         p       q       r  q or not r  not (p and (q or not r))
+     False   False   False        True                      True
+     False   False    True       False                      True
+     False    True   False        True                      True
+     False    True    True        True                      True
+      True   False   False        True                     False
+      True   False    True       False                      True
+      True    True   False        True                     False
+      True    True    True        True                     False

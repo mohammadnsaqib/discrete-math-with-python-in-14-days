@@ -1,0 +1,13 @@
+functions of 3 inputs: 256
+functions whose sum of products did not rebuild the column: 0
+
+  True rows   functions   product terms needed
+          0           1                      0
+          1           8                      1
+          2          28                      2
+          3          56                      3
+          4          70                      4
+          5          56                      5
+          6          28                      6
+          7           8                      7
+          8           1                      8

@@ -1,0 +1,11 @@
+                            quantity   expectation   as a decimal
+                             one die           7/2       3.500000
+                 the sum of two dice             7       7.000000
+              the larger of two dice        161/36       4.472222
+             the smaller of two dice         91/36       2.527778
+the difference, larger minus smaller         35/18       1.944444
+           1 if the sum is 7, else 0           1/6       0.166667
+
+the expected value of one die is 7/2, which is not a face on the die.
+the last row equals P(sum is 7): 1/6
+and the larger plus the smaller is 7, the same as the sum.

@@ -1,0 +1,13 @@
+    m   prime   totient   invertible           orders present   checks pass
+    5    True         4            4                [1, 2, 4]          True
+    7    True         6            6             [1, 2, 3, 6]          True
+    8   False         4            4                   [1, 2]          True
+    9   False         6            6             [1, 2, 3, 6]          True
+   12   False         4            4                   [1, 2]          True
+   13    True        12           12      [1, 2, 3, 4, 6, 12]          True
+   15   False         8            8                [1, 2, 4]          True
+   16   False         8            8                [1, 2, 4]          True
+   17    True        16           16         [1, 2, 4, 8, 16]          True
+   21   False        12           12             [1, 2, 3, 6]          True
+
+moduli from 2 to 199 where any check failed: 0

@@ -1,0 +1,10 @@
+     n   steps to 1   highest value on the way
+     6            8                         16
+     7           16                         52
+    27          111                       9232
+    97          118                       9232
+   871          178                     190996
+  6171          261                     975400
+
+in 1..9999 the longest run belongs to 6171, at 261 steps.
+values in 1..9999 that did not reach 1 within 1000 steps: []

@@ -1,0 +1,12 @@
+relation: a and b leave the same remainder on division by 4
+   reflexive  : True
+   symmetric  : True
+   transitive : True
+
+it splits 15 members into 4 groups:
+   [0, 4, 8, 12]
+   [1, 5, 9, 13]
+   [2, 6, 10, 14]
+   [3, 7, 11]
+
+the group sizes are [4, 4, 4, 3] and they add to 15, which is the whole

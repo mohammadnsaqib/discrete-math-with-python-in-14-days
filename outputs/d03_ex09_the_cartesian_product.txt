@@ -1,0 +1,10 @@
+A = {1, 2, 3}, B = {x, y}
+A x B has 6 pairs: [(1, 'x'), (1, 'y'), (2, 'x'), (2, 'y'), (3, 'x'), (3, 'y')]
+
+B x A has 6 pairs: [('x', 1), ('x', 2), ('x', 3), ('y', 1), ('y', 2), ('y', 3)]
+the two are equal: False
+
+|A| x |B| = 3 x 2 = 6, and the product has 6.
+
+A x B x A has 18, which is 3 x 2 x 3.
+the sizes multiply because each position is chosen independently of the others.

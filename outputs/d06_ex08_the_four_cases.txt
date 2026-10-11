@@ -1,0 +1,14 @@
+                            case  by the rule  by building   agree
+  order matters, repeats allowed           16           16    True
+       order matters, no repeats           12           12    True
+       order ignored, no repeats            6            6    True
+  order ignored, repeats allowed           10           10    True
+
+order matters, repeats allowed:
+   ['aa', 'ab', 'ac', 'ad', 'ba', 'bb', 'bc', 'bd', 'ca', 'cb', 'cc', 'cd', 'da', 'db', 'dc', 'dd']
+order matters, no repeats:
+   ['ab', 'ac', 'ad', 'ba', 'bc', 'bd', 'ca', 'cb', 'cd', 'da', 'db', 'dc']
+order ignored, no repeats:
+   ['ab', 'ac', 'ad', 'bc', 'bd', 'cd']
+order ignored, repeats allowed:
+   ['aa', 'ab', 'ac', 'ad', 'bb', 'bc', 'bd', 'cc', 'cd', 'dd']

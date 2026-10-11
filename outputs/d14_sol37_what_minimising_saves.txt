@@ -1,0 +1,11 @@
+   gates before minimising, in all: 1991
+    gates after minimising, in all: 1253
+                       gates saved: 738
+      functions that saved nothing: 35
+     circuits that came out deeper: 0
+
+the best saving on a column that is not constant: 10 gates
+   the column: 01111111
+                  not    and     or   total   layers
+   one per row      3      7      1      11        3
+     minimised      0      0      1       1        1

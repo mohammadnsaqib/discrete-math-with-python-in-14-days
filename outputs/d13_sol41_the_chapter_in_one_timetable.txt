@@ -1,0 +1,12 @@
+exams: ['art', 'history', 'logic', 'maths', 'music', 'sport']
+clashes: 13, the degrees {'art': 4, 'history': 4, 'logic': 4, 'maths': 5, 'music': 5, 'sport': 4}
+slots the greedy walk uses: 4, slots needed: 4, valid: True
+   slot 0: ['art', 'history']
+   slot 1: ['logic', 'sport']
+   slot 2: ['maths']
+   slot 3: ['music']
+every student's exams are in different slots: True
+
+the room graph is bipartite: True, and NetworkX agrees: True
+the largest pairing of rooms to exams: [('art', 'small'), ('history', 'large'), ('medium', 'music')]
+   rooms used: 3 of 3, NetworkX finds the same size: True

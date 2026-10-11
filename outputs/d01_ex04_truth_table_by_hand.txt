@@ -1,0 +1,5 @@
+      p       q    p and not q
+  False   False          False
+  False    True          False
+   True   False           True
+   True    True          False

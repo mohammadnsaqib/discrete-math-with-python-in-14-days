@@ -1,0 +1,4 @@
+searching fractions a/b with b up to 2000 for one whose square is exactly 2
+   found: None
+
+the closest such fraction is 1393/985, and its square misses 2 by 1.031e-06

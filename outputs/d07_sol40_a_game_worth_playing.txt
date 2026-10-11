@@ -1,0 +1,15 @@
+                            game     P(win)   prize   expected gain   fair prize
+            two dice, win on a 7        1/6       5            -1/6            6
+       two dice, win on a double        1/6       5            -1/6            6
+        two dice, win on any six      11/36       2           -7/18        36/11
+     three dice, win on a triple       1/36      30            -1/6           36
+      three dice, win on any six     91/216       1        -125/216       216/91
+  three dice, win on a sum of 10        1/8       7            -1/8            8
+
+                            game    stake for a fair game
+            two dice, win on a 7                      5/6
+       two dice, win on a double                      5/6
+        two dice, win on any six                    11/18
+     three dice, win on a triple                      5/6
+      three dice, win on any six                   91/216
+  three dice, win on a sum of 10                      7/8

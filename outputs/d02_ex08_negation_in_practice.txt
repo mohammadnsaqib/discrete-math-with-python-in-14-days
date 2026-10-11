@@ -1,0 +1,9 @@
+claim   : every integer from 2 to 199 is prime
+negation: some integer from 2 to 199 is not prime
+   the claim holds   : False
+   the negation holds: True, witnessed by 4
+
+claim   : some integer from 2 to 199 is divisible by 97 and by 89
+negation: every integer from 2 to 199 fails to be divisible by both
+   the claim holds   : False
+   the negation holds: True

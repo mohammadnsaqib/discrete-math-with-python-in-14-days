@@ -1,0 +1,17 @@
+the public key  : (3233, 17)
+the private key : (3233, 2753)
+
+   message    encrypted    decrypted   returned
+         0            0            0       True
+         1            1            1       True
+         2         1752            2       True
+        42         2557           42       True
+        65         2790           65       True
+      1000          175         1000       True
+      3232         3232         3232       True
+
+messages below 3233 that do not come back: 0
+
+messages that encrypt to themselves: 25, the first few being [0, 1, 182, 477, 560, 743]
+
+a message of 3234: the message must be smaller than the modulus

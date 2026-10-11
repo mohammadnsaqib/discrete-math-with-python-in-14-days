@@ -1,0 +1,13 @@
+A       = {1, 2, 3}
+B       = {1, 2}
+nested  = a set whose members are the SET {1, 2} and the number 3
+
+   1 is a member of A            : True
+   B is a subset of A            : True
+   B is a member of A            : False
+   B is a member of nested       : True
+   B is a subset of nested       : False
+
+B is inside A in one sense and inside nested in the other, and the two senses
+have nothing to do with each other. The empty set is a subset of every set and
+a member of almost none: empty subset of A is True, member is False.

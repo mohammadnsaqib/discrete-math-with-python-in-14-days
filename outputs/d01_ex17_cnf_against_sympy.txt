@@ -1,0 +1,12 @@
+p implies q
+   from the table : (not p or q)
+   from sympy     : Q | ~P
+   same table     : True, clauses 1 against 1
+p iff q
+   from the table : (p or not q) and (not p or q)
+   from sympy     : (P | ~Q) & (Q | ~P)
+   same table     : True, clauses 2 against 2
+(p or q) and not r
+   from the table : (p or q or r) and (p or q or not r) and (p or not q or not r) and (not p or q or not r) and (not p or not q or not r)
+   from sympy     : ~R & (P | Q)
+   same table     : True, clauses 5 against 2

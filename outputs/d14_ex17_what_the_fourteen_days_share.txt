@@ -1,0 +1,16 @@
+ONE. A search over a range refutes and never establishes.
+   n*n + n + 41 is prime for n = 0 to 39: True
+   at n = 40 it is 1681, which factors as [(41, 2)]
+
+TWO. A fast answer is printed beside the searched one, never instead of it.
+   a ring of 5: greedy uses 3, the fewest is 3
+   a crown of 6 in name order: 2 colours, in the order adefbc: 3
+   the fewest either way: 2
+
+THREE. An exact answer is kept exact.
+   P(two dice sum to 7) = 1/6, the expected sum = 7
+   100000 trials gave 0.168100, which is not 1/6 and never will be
+
+FOUR. A claim about every value needs an induction, and both halves are checked.
+   2**n is at least n**2: base holds; step FAILS first at 2 (1 failures)
+   n is at least 5: BASE FAILS at 1; step holds across 59 values

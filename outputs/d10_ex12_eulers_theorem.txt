@@ -1,0 +1,29 @@
+    n   totient   by counting   agree   n - 1   prime
+    5         4             4    True       4    True
+    7         6             6    True       6    True
+    8         4             4    True       7   False
+    9         6             6    True       8   False
+   12         4             4    True      11   False
+   15         8             8    True      14   False
+   16         8             8    True      15   False
+   35        24            24    True      34   False
+   97        96            96    True      96    True
+
+values below 500 where the two totients differ: 0
+
+    n   totient   a**totient = 1 for every coprime a
+    8         4                                 True
+    9         6                                 True
+   12         4                                 True
+   15         8                                 True
+   16         8                                 True
+   35        24                                 True
+
+
+modulo 35, the totient is 24 and n - 1 is 34
+   2**24 = 1, 2**34 = 9
+   3**24 = 1, 3**34 = 4
+   4**24 = 1, 4**34 = 11
+   6**24 = 1, 6**34 = 1
+
+moduli below 600 where the theorem fails: []

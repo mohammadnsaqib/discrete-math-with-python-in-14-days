@@ -1,0 +1,8 @@
+      p       q    not (p and q)    (not p) or (not q)   agree
+  False   False             True                  True    True
+  False    True             True                  True    True
+   True   False             True                  True    True
+   True    True            False                 False    True
+
+equivalent: True
+no rewriting rule was used and none is needed. Two columns matched, four times.

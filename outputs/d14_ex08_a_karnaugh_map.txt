@@ -1,0 +1,9 @@
+at least two of three, as a map with a down the side and b, c across:
+            00    01    11    10
+       0     .     .     1     .
+       1     .     1     1     1
+
+the True rows: [3, 5, 6, 7]
+the column labels in order: ['00', '01', '11', '10']
+neighbouring columns differ in: [1, 1, 1] input
+and the last and first differ in: 1

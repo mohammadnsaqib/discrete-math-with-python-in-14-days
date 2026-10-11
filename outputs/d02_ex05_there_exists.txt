@@ -1,0 +1,4 @@
+                                     an even prime: yes, witnessed by 2
+                                  a prime above 50: yes, witnessed by 53
+         a number below 60 divisible by 7 and by 9: none in this range
+     a perfect square that is also a cube, above 1: yes, witnessed by 64

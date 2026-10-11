@@ -1,0 +1,12 @@
+                recurrence   root   constant        closed form   first disagreement
+ a(n) = 2*a(n-1), a(0) = 1      2          1           1 * 2**n        none in 0..39
+ a(n) = 3*a(n-1), a(0) = 4      3          4           4 * 3**n        none in 0..39
+ a(n) = 5*a(n-1), a(0) = 2      5          2           2 * 5**n        none in 0..39
+ a(n) = 1*a(n-1), a(0) = 7      1          7           7 * 1**n        none in 0..39
+
+   n     iterated    closed form   agree
+   0            4              4    True
+   1           12             12    True
+   5          972            972    True
+  10       236196         236196    True
+  20  13947137604    13947137604    True

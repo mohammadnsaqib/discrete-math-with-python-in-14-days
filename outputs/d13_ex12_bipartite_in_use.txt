@@ -1,0 +1,15 @@
+  worker                   jobs they can do
+     Ada              ['welding', 'wiring']
+     Ben            ['painting', 'welding']
+    Cleo                       ['painting']
+     Dan  ['painting', 'testing', 'wiring']
+
+bipartite: True, one side ['Ada', 'Ben', 'Cleo', 'Dan']
+           the other ['painting', 'testing', 'welding', 'wiring']
+the sides are the workers and the jobs: True
+
+     sides   vertices    edges   bipartite
+    1 by 1          2        1        True
+    2 by 3          5        6        True
+    3 by 3          6        9        True
+    4 by 2          6        8        True

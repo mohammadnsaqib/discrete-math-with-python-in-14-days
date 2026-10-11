@@ -1,0 +1,12 @@
+every way to take a or b from each of 4 brackets: 16
+  copies of b   ways   binomial(4, k)   agree
+            0      1                1    True
+            1      4                4    True
+            2      6                6    True
+            3      4                4    True
+            4      1                1    True
+
+the 6 ways to take b from exactly two brackets:
+   ['aabb', 'abab', 'abba', 'baab', 'baba', 'bbaa']
+
+the coefficients of (a + b)**4: [1, 4, 6, 4, 1]

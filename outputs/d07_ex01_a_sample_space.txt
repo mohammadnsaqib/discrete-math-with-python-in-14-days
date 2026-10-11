@@ -1,0 +1,13 @@
+one die       : 6 outcomes, [1, 2, 3, 4, 5, 6]
+two coins     : 4 outcomes, ['HH', 'HT', 'TH', 'TT']
+three coins   : 8 outcomes
+   ['HHH', 'HHT', 'HTH', 'HTT', 'THH', 'THT', 'TTH', 'TTT']
+two dice      : 36 outcomes
+   the first eight: [(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), (2, 2)]
+
+      experiment   outcomes per trial   trials   sample space
+         one die                    6        1              6
+       two coins                    2        2              4
+     three coins                    2        3              8
+        two dice                    6        2             36
+       five dice                    6        5           7776

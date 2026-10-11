@@ -1,0 +1,5 @@
+claim: n squared plus n is even, for every n
+
+  direct        no counterexample in 300 of the integers 1 to 300 -- this settles nothing about the rest
+  by cases      even n: 150 tested, 0 failed; odd n: 150 tested, 0 failed
+  contradiction no counterexample in 300 of the integers 1 to 300 -- this settles nothing about the rest

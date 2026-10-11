@@ -1,0 +1,10 @@
+                function  terms   not   and   or   gates   layers   gates from the rows
+   at least two of three      3     0     3    1       4        2                     8
+         a alone decides      1     0     0    0       0        0                     7
+           an odd number      4     3     4    1       8        3                     8
+           a and b agree      2     2     2    1       5        3                    13
+    at least two of four      6     0     6    1       7        2                    16
+
+at least two of three: (b and c) or (a and c) or (a and b)
+   3 AND gates and 1 OR gate, in 2 layers
+   'a alone decides' needs 0 gates and 0 layers

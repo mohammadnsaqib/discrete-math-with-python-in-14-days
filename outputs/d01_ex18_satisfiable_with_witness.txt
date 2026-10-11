@@ -1,0 +1,6 @@
+                               statement  satisfiable   witness
+                             p and not q         True   p=True, q=False
+           (p or q) and (not p or not q)         True   p=False, q=True
+                             p and not p        False   none exists
+           (p implies q) and p and not q        False   none exists
+   (p or q or r) and (not p) and (not q)         True   p=False, q=False, r=True

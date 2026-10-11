@@ -1,0 +1,4 @@
+claim: if 6 divides n then 3 divides n
+   members where the hypothesis held : 100
+   of those, the conclusion failed on: 0
+   members the hypothesis skipped    : 500

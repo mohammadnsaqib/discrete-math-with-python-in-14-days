@@ -1,0 +1,7 @@
+                                         claim                         settled by
+           the sum of two even numbers is even                   2a + 2b = 2(a+b)
+             the sum of two odd numbers is odd          the counterexample (1, 1)
+         the product of two odd numbers is odd      (2a+1)(2b+1) = 2(2ab+a+b) + 1
+                    every prime above 2 is odd                  2 would divide it
+if a divides b and b divides c then a divides c    b = ka and c = mb, so c = (mk)a
+        every number that divides 12 divides 6               the counterexample 4

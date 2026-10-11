@@ -1,0 +1,13 @@
+a line of 4: [(0, 1), (1, 2), (2, 3)]
+              matching   size   a matching   can be extended
+              [(1, 2)]      1         True             False
+      [(0, 1), (2, 3)]      2         True             False
+
+             graph   greedy matching   largest   greedy is best
+       a line of 4                 2         2             True
+       a line of 5                 2         2             True
+       a line of 6                 3         3             True
+       a line of 7                 3         3             True
+
+a line of 4, edges in the order [(0, 1), (1, 2), (2, 3)]: greedy takes [(0, 1), (2, 3)]
+   in the order [(1, 2), (0, 1), (2, 3)]: [(1, 2)]

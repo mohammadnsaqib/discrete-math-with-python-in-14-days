@@ -1,0 +1,10 @@
+the relation      : [(1, 2), (2, 3), (3, 4), (4, 5)]
+transitive?       : False
+
+round 1: adds [(1, 3), (2, 4), (3, 5)]
+round 2: adds [(1, 4), (1, 5), (2, 5)]
+round 3: nothing new, so it stops
+
+the closure       : [(1, 2), (1, 3), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5), (3, 4), (3, 5), (4, 5)]
+pairs             : 4 became 10
+transitive now?   : True

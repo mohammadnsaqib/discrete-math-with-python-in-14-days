@@ -1,0 +1,4 @@
+                               claim  tested  failed  skipped              what it shows
+     if 6 divides n then 3 divides n      10       0       50         held on 10 members
+if n is above 1000 then n is negative       0       0       60      nothing: never tested
+if n divides 7 and n > 1 then n is 7       1       0       59           held on 1 member

@@ -1,0 +1,4 @@
+                             statement   answer   rows looked at    of
+   not p and not q and not r and not s      yes                1    16
+                   p and q and r and s      yes               16    16
+                     p and not p and q       no               16    16

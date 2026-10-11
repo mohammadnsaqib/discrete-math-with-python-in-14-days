@@ -1,0 +1,16 @@
+the roots are -0.618033988750 and 1.618033988750
+the constants are -0.447213595500 and 0.447213595500
+
+   n     iterated            closed form     difference
+   0            0               0.000000    0.000000000
+   1            1               1.000000    0.000000000
+   5            5               5.000000    0.000000000
+  10           55              55.000000    0.000000000
+  20         6765            6765.000000    0.000000000
+  30       832040          832040.000000    0.000000001
+
+first disagreement beyond one part in a billion: None
+
+SymPy solves the same recurrence to:
+   -sqrt(5)*(1/2 - sqrt(5)/2)**n/5 + sqrt(5)*(1/2 + sqrt(5)/2)**n/5
+and at n = 30 that gives 832040, against 832040 by iteration.

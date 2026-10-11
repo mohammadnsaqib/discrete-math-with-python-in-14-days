@@ -1,0 +1,15 @@
+strings the definition reaches, up to length 8: 23
+the first twelve: ['', '()', '(())', '()()', '((()))', '(()())', '(())()', '()(())', '()()()', '(((())))', '((()()))', '((())())']
+
+of those, how many are not balanced: 0
+
+balanced strings of length up to 8 the definition did NOT reach: 0
+
+ half length   balanced strings
+           0                  1
+           1                  1
+           2                  2
+           3                  5
+           4                 14
+
+the counts are the Catalan numbers, which Day 8 derives: [1, 1, 2, 5, 14]

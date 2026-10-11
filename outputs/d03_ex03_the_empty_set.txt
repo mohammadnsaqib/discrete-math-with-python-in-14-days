@@ -1,0 +1,9 @@
+the empty set          : {}, with 0 members
+a set containing it    : has 1 member, which is a set
+
+   empty is a subset of {1,2,3} : True
+   empty is a member of {1,2,3} : False
+   empty is a subset of empty   : True
+
+the power set of the empty set has 1 member: ['{}']
+the power set of a one-member set has 2: ['{}', '{1}']

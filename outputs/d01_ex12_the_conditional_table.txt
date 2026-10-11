@@ -1,0 +1,12 @@
+p implies q
+      p       q   value   reading
+  False   False    True   promise not tested: p never happened
+  False    True    True   promise not tested: p never happened
+   True   False   False   promise BROKEN: p happened and q did not
+   True    True    True   promise kept
+
+only one row is False, and it is the only row where the promise was tested and
+failed. A conditional with a false first part is true because nothing was claimed.
+
+'if 2 + 2 = 5 then the moon is cheese' is True
+'if 2 + 2 = 5 then 1 = 1'              is True

@@ -1,0 +1,12 @@
+   items    holes    items/holes    floor
+      10        3         3.3333        4
+      11        3         3.6667        4
+      12        3         4.0000        4
+      13        3         4.3333        5
+     100        7        14.2857       15
+    1000       26        38.4615       39
+       5       12         0.4167        1
+
+the floor is the quotient rounded UP, and rounding down is the common error.
+     10 over 3 rounds down to 3 and up to 4
+     12 over 3 rounds down to 4 and up to 4

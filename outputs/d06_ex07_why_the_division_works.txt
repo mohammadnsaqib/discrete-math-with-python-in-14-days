@@ -1,0 +1,9 @@
+every ordered choice of 3 from ['a', 'b', 'c', 'd'], grouped by which items were chosen:
+   abc : ['abc', 'acb', 'bac', 'bca', 'cab', 'cba']
+   abd : ['abd', 'adb', 'bad', 'bda', 'dab', 'dba']
+   acd : ['acd', 'adc', 'cad', 'cda', 'dac', 'dca']
+   bcd : ['bcd', 'bdc', 'cbd', 'cdb', 'dbc', 'dcb']
+
+group sizes present: [6], and 3! is 6
+groups: 4, ordered choices: 24
+the formula gives 4

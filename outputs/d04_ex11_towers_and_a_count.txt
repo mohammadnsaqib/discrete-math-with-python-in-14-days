@@ -1,0 +1,25 @@
+ discs   moves made   2**n - 1  agree
+     0            0          0   True
+     1            1          1   True
+     2            3          3   True
+     3            7          7   True
+     4           15         15   True
+     5           31         31   True
+     6           63         63   True
+     7          127        127   True
+     8          255        255   True
+     9          511        511   True
+    10         1023       1023   True
+    11         2047       2047   True
+    12         4095       4095   True
+
+the moves for three discs, in order:
+    1. disc 1 from A to C
+    2. disc 2 from A to B
+    3. disc 1 from C to B
+    4. disc 3 from A to C
+    5. disc 1 from B to A
+    6. disc 2 from B to C
+    7. disc 1 from A to C
+
+first disagreement in 0..16: None

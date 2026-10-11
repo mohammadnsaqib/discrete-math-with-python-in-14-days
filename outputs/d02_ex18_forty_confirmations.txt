@@ -1,0 +1,21 @@
+   n   n^2 - n + 41   prime?
+   0             41     True
+   1             41     True
+   2             43     True
+   3             47     True
+   4             53     True
+   5             61     True
+  39           1523     True
+  40           1601     True
+  41           1681    False
+  42           1763    False
+
+  over 0..9   no counterexample in 10 of the integers 0 to 9 -- this settles nothing about the rest
+  over 0..19  no counterexample in 20 of the integers 0 to 19 -- this settles nothing about the rest
+  over 0..39  no counterexample in 40 of the integers 0 to 39 -- this settles nothing about the rest
+  over 0..40  no counterexample in 41 of the integers 0 to 40 -- this settles nothing about the rest
+  over 0..44  REFUTED by 41, found after 42 of the integers 0 to 44
+
+at n = 41 the value is 1681, which is 41 times 41.
+The claim held for every n from 0 to 40, which is 41 confirmations,
+and failed at the next.

@@ -1,0 +1,24 @@
+  k       ordered, repeats    ordered, no repeats  unordered, no repeats     unordered, repeats
+  0                      1                      1                      1                      1
+  1                      5                      5                      5                      5
+  2                     25                     20                     10                     15
+  3                    125                     60                     10                     35
+  4                    625                    120                      5                     70
+  5                   3125                    120                      1                    126
+
+  k       ordered, repeats    ordered, no repeats  unordered, no repeats     unordered, repeats
+  0                      1                      1                      1                      1
+  1                      5                      5                      5                      5
+  2                     25                     20                     10                     15
+  3                    125                     60                     10                     35
+  4                    625                    120                      5                     70
+  5                   3125                    120                      1                    126
+
+places where a formula and its collection differed: 0
+
+  k    correct   largest wrong answer   times too large
+  1          5                      5               1.0
+  2         10                     25               2.5
+  3         10                    125              12.5
+  4          5                    625             125.0
+  5          1                   3125            3125.0

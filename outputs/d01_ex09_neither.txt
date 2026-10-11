@@ -1,0 +1,6 @@
+       statement   rows   true on   tautology   contradiction          kind
+      p or not p      2         2        True           False     tautology
+     p and not p      2         0       False            True contradiction
+         p and q      4         1       False           False    contingent
+     p implies q      4         3       False           False    contingent
+     p or q or r      8         7       False           False    contingent

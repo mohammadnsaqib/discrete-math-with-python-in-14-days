@@ -1,0 +1,15 @@
+   gates allowed    columns reachable    all 256
+         and, or                   18      False
+    and, or, not                  256       True
+      nand alone                  256       True
+       nor alone                  256       True
+       and alone                    7      False
+         or, not                  256       True
+
+columns and-or can build                         : 18
+columns that never turn off when an input goes on: 20
+the two constant columns are the difference      : True
+
+not a as a column     : 11110000
+and-or can reach it   : False
+nand of a with itself : 11110000, the same column: True

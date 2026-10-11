@@ -1,0 +1,9 @@
+   n  recursive  by adding  closed form  agree
+   0          0          0            0   True
+   1          1          1            1   True
+   5         15         15           15   True
+  10         55         55           55   True
+  50       1275       1275         1275   True
+ 100       5050       5050         5050   True
+
+first disagreement between the recursion and the closed form in 0..899: None

@@ -1,0 +1,8 @@
+                         graph   vertices   edges   one piece   no cycle   a tree   edges = n - 1   NetworkX agrees
+                   a line of 5          5       4        True       True     True            True              True
+                   a ring of 5          5       5        True      False    False           False              True
+                   a star of 5          5       4        True       True     True            True              True
+                 complete on 4          4       6        True      False    False           False              True
+  a triangle and a lone vertex          4       3       False      False    False            True              True
+                     two lines          6       4       False       True    False           False              True
+                    one vertex          1       0        True       True     True            True              True

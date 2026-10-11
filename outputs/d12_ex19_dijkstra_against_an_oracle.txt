@@ -1,0 +1,13 @@
+             graph   vertices   costs match   the dearest route
+      six vertices          6          True                  13
+   a weighted ring          4          True                   4
+    one heavy edge          4          True                   3
+            a grid          6          True                   5
+
+   to    cost   NetworkX cost      route   NetworkX route
+    a       0               0          a                a
+    b       3               3        acb              acb
+    c       1               1         ac               ac
+    d       8               8       acbd             acbd
+    e      10              10      acbde            acbde
+    f      13              13     acbdef           acbdef

@@ -1,0 +1,20 @@
+the order reached : ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+
+  vertex   distance from a                 neighbours
+       a                 0                 ['b', 'c']
+       b                 1                 ['a', 'd']
+       c                 1            ['a', 'd', 'e']
+       d                 2            ['b', 'c', 'f']
+       e                 2                 ['c', 'f']
+       f                 3            ['d', 'e', 'g']
+       g                 4                      ['f']
+
+the layers:
+   distance 0: ['a']
+   distance 1: ['b', 'c']
+   distance 2: ['d', 'e']
+   distance 3: ['f']
+   distance 4: ['g']
+
+NetworkX distances : {'a': 0, 'b': 1, 'c': 1, 'd': 2, 'e': 2, 'f': 3, 'g': 4}
+they match         : True

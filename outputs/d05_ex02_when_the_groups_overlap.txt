@@ -1,0 +1,10 @@
+evens under 20          : [2, 4, 6, 8, 10, 12, 14, 16, 18]
+multiples of 3 under 20 : [3, 6, 9, 12, 15, 18]
+in both                 : [6, 12, 18]
+
+                        collection  by the rule  by building  verdict
+           even or a multiple of 3           15           12  DISAGREE
+the same, with the overlap removed           12           12  agree
+
+the sum rule overcounts by 3, which is the size of the overlap.
+Its one condition, that no member is in both groups, was not met.

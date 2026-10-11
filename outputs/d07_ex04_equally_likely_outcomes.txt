@@ -1,0 +1,9 @@
+the 8 outcomes of three coins: ['HHH', 'HHT', 'HTH', 'HTT', 'THH', 'THT', 'TTH', 'TTT']
+
+                     event   outcomes   probability   as a decimal
+           exactly 0 heads          1           1/8       0.125000
+           exactly 1 heads          3           3/8       0.375000
+           exactly 2 heads          3           3/8       0.375000
+           exactly 3 heads          1           1/8       0.125000
+
+the four probabilities add to 1

@@ -1,0 +1,18 @@
+       n          factorisation   divisors found   from the powers   agree
+      12            2**2 * 3**1                6                 6    True
+      36            2**2 * 3**2                9                 9    True
+      60     2**2 * 3**1 * 5**1               12                12    True
+      97                  97**1                2                 2    True
+     128                   2**7                8                 8    True
+     720     2**4 * 3**2 * 5**1               30                30    True
+    1024                  2**10               11                11    True
+
+a divisor chooses, for each prime, how many copies of it to take: none, one, up to
+the power present. So the count of divisors is the product of one more than each
+power, which is Day 5's product rule applied to the factorisation.
+
+       n   divisors   the largest proper one
+      12          6                        6
+      97          2                        1
+     100          9                       50
+    1024         11                      512

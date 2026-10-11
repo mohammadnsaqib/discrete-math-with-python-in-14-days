@@ -1,0 +1,19 @@
+n = 143, totient = 120, e = 7, d = 103
+e * d = 721, which is 6 * 120 + 1
+
+    m   m**(e*d) mod n   m**phi mod n   gcd(m, n)   returns m
+    2                2              1           1        True
+    3                3              1           1        True
+   11               11             66          11        True
+   13               13             78          13        True
+   45               45              1           1        True
+  100              100              1           1        True
+  142              142              1           1        True
+
+values sharing no factor with 143: 120, and the totient is 120
+all of them satisfy m**phi = 1: True
+
+e*d is 1 more than 6 times the totient, so m**(e*d) is m times
+(m**phi) raised to 6, and the bracket is 1 for every coprime m.
+
+the 22 values sharing a factor with n also return: True

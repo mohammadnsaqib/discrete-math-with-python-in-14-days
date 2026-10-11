@@ -1,0 +1,21 @@
+     a        b   a divides b                                why
+     3       12          True                    12 is 3 times 4
+     5       12         False     12 is not a whole number of 5s
+     1       12          True         every integer divides by 1
+    12       12          True       every integer divides itself
+    12        0          True                    0 is 12 times 0
+     0        0          True              0 is 0 times anything
+     0        5         False              no multiple of 0 is 5
+    -3       12          True                  12 is -3 times -4
+
+the divisors of   12: [1, 2, 3, 4, 6, 12]
+the divisors of   36: [1, 2, 3, 4, 6, 9, 12, 18, 36]
+the divisors of   97: [1, 97]
+the divisors of  100: [1, 2, 4, 5, 10, 20, 25, 50, 100]
+
+     n   divisors   sum of them
+     6          4            12
+    12          6            28
+    28          6            56
+    30          8            72
+   496         10           992

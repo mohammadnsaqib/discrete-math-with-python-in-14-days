@@ -1,0 +1,20 @@
+  groups   subsets walked                 the terms, by size    total
+       1                1                               +500      500
+       2                3                          +833 -166      667
+       3                7                     +1033 -332 +33      734
+       4               15                  +1175 -478 +79 -4      772
+       5               31             +1265 -583 +121 -10 +0      793
+
+                        collection  by the rule  by building  verdict
+   divisible by one of the first 1          500          500  agree
+   divisible by one of the first 2          667          667  agree
+   divisible by one of the first 3          734          734  agree
+   divisible by one of the first 4          772          772  agree
+   divisible by one of the first 5          793          793  agree
+
+                          divisors  divisible by none
+                              (2,)                500
+                            (2, 3)                333
+                         (2, 3, 5)                266
+                      (2, 3, 5, 7)                228
+                  (2, 3, 5, 7, 11)                207

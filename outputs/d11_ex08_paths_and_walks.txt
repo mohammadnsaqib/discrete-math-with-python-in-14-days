@@ -1,0 +1,12 @@
+     route   a walk   a trail   a path
+       abc     True      True     True
+      abca     True      True    False
+     abcda     True      True    False
+       aba     True     False    False
+       abd    False     False    False
+
+  length   walks from a   trails from a   paths from a
+       1              3               3              3
+       2              7               4              4
+       3             19               6              2
+       4             47               6              0

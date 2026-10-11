@@ -1,0 +1,14 @@
+   state     on a     on b
+    even      odd     even
+     odd     even      odd
+
+      word         the states it passes through   accepted   a count
+        ''                                 even       True         0
+       'a'                             even odd      False         1
+      'ab'                         even odd odd      False         1
+     'aab'                   even odd even even       True         2
+    'abab'               even odd odd even even       True         2
+     'aaa'                    even odd even odd      False         3
+   'babab'          even even odd odd even even       True         2
+
+words up to length 8 tested: 511, disagreements: 0

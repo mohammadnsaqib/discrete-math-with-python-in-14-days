@@ -1,0 +1,6 @@
+from (p implies q) and p, conclude q             valid: True
+from (p implies q) and q, conclude p             valid: False
+                                                 broken at p=False, q=True
+from (p implies q) and not q, conclude not p     valid: True
+from (p implies q) and not p, conclude not q     valid: False
+                                                 broken at p=False, q=True

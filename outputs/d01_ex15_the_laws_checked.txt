@@ -1,0 +1,15 @@
+                     law   variables   rows   holds
+         double negation           1      2    True
+      idempotence of and           1      2    True
+    commutativity of and           2      4    True
+     commutativity of or           2      4    True
+          de Morgan, and           2      4    True
+           de Morgan, or           2      4    True
+              absorption           2      4    True
+         the conditional           2      4    True
+          contraposition           2      4    True
+    associativity of and           3      8    True
+    distribution over or           3      8    True
+   distribution over and           3      8    True
+
+12 of 12 hold, and each was settled by building both tables.

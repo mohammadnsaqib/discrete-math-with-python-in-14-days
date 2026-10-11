@@ -1,0 +1,11 @@
+a small deck: 5 ranks and 3 suits, 15 cards
+                  collection  by the rule  by building   agree
+              all hands of 3          455          455    True
+       hands all of one suit           30           30    True
+
+the full deck: 52 cards
+                  hands of 5        2598960
+             all of one suit           5148
+            exactly one pair        1098240
+
+one hand in 505 is all of one suit.

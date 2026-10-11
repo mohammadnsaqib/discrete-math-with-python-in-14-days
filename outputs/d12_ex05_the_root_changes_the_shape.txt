@@ -1,0 +1,12 @@
+the tree: [('a', 'b'), ('b', 'c'), ('c', 'd'), ('c', 'f'), ('d', 'e'), ('f', 'g')]
+hung from a, height 4: depth 0 ['a']; depth 1 ['b']; depth 2 ['c']; depth 3 ['d', 'f']; depth 4 ['e', 'g']
+hung from c, height 2: depth 0 ['c']; depth 1 ['b', 'd', 'f']; depth 2 ['a', 'e', 'g']
+
+    root   height     the edges are the same
+       a        4                       True
+       b        3                       True
+       c        2                       True
+       d        3                       True
+       e        4                       True
+       f        3                       True
+       g        4                       True

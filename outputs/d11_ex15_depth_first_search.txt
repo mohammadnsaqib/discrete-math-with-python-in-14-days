@@ -1,0 +1,16 @@
+the graph is a ring: [('a', 'b'), ('a', 'f'), ('b', 'c'), ('c', 'd'), ('d', 'e'), ('e', 'f')]
+depth-first order  : ['a', 'b', 'c', 'd', 'e', 'f']
+breadth-first order: ['a', 'b', 'f', 'c', 'e', 'd']
+the same vertices  : True
+the same order     : False
+
+  vertex   reached from   depth in the tree   true distance   same
+       a           None                   0               0   True
+       b              a                   1               1   True
+       c              b                   2               2   True
+       d              c                   3               3   True
+       e              d                   4               2  False
+       f              e                   5               1  False
+
+vertices where the two depths differ: ['e', 'f']
+the worst gap: 4

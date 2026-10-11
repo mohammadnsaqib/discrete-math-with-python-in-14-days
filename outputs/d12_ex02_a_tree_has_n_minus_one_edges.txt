@@ -1,0 +1,11 @@
+graphs on 5 vertices: 1024, of which trees: 125
+trees with a cycle or the wrong edge count: 0
+every tree found has this many edges: [4]
+
+  vertices   trees on them   n**(n-2)   agree
+         1               1          1    True
+         2               1          1    True
+         3               3          3    True
+         4              16         16    True
+         5             125        125    True
+         6            1296       1296    True

@@ -1,0 +1,6 @@
+                          recurrence  order  linear  homogeneous                first six terms
+                     a(n) = 5*a(n-1)      1    True         True     [1, 5, 25, 125, 625, 3125]
+              a(n) = a(n-1) + a(n-2)      2    True         True             [0, 1, 1, 2, 3, 5]
+                 a(n) = 2*a(n-1) + 1      1    True        False           [0, 1, 3, 7, 15, 31]
+                   a(n) = a(n-1) + n      1    True        False           [0, 1, 3, 6, 10, 15]
+   a(n) = 3*a(n-1) - 2*a(n-2) + 2**n      2    True        False         [0, 1, 7, 27, 83, 227]

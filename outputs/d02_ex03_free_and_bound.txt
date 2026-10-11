@@ -1,0 +1,13 @@
+P(n): n is even
+
+  P(n)                 -- a predicate. n is free, and there is no truth value.
+  for all n in 0..9    -- a statement. Its value is False.
+  there exists n       -- a statement. Its value is True, witnessed by 0.
+
+the letter n means something different in each line. In the first it stands for
+whatever the reader supplies. In the other two it stands for nothing at all: the
+quantifier has used it up, and replacing every n by m changes no meaning.
+
+that is why the two statements below say the same thing:
+   for all n in 0..9, n is even : False
+   for all m in 0..9, m is even : False

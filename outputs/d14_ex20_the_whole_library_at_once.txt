@@ -1,0 +1,15 @@
+  day     module                     what it answers here             the answer
+    1      logic         the rule written two ways agrees                   True
+    2      proof              does every talk have a slot                   True
+    3       sets     is the timetable a function on talks                   True
+    4     induct           every attendee has three slots                   True
+    5   counting        assignments of 4 slots to 7 talks                  16384
+    6     combin                ways to pick 3 talks of 7                     35
+    7       prob      chance a random slot holds one talk                    1/4
+    8      recur    the eighth term of a(n)=a(n-1)+a(n-2)                     34
+    9     number            is the count of clashes prime                  False
+   10     crypto        7 to the totient of 11, modulo 11                      1
+   11      graph             pieces the clash graph is in                      1
+   12       tree           edges in a spanning tree of it                      6
+   13     colour       the fewest slots the clashes allow                      4
+   14    boolean      terms in the smallest majority rule                      3
